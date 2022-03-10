@@ -8,23 +8,21 @@ public class DialogueManager : MonoBehaviour {
 	public Text nameText;
 	public Text dialogueText;
     public GameObject dialogueObject;
-	private Queue<string> sentences;
+	private Queue<Sentence> sentences;
 	private bool _typing;
 	private string _lastSentece;
 
 	void Start () {
-		sentences = new Queue<string>();
+		sentences = new Queue<Sentence>();
 	}
 
 	public void StartDialogue (Dialogue dialogue)
 	{
         dialogueObject.SetActive(true);
         
-		nameText.text = dialogue.name;
-
 		sentences.Clear();
 
-		foreach (string sentence in dialogue.sentences)
+		foreach (Sentence sentence in dialogue.sentences)
 		{
 			sentences.Enqueue(sentence);
 		}
@@ -46,10 +44,12 @@ public class DialogueManager : MonoBehaviour {
 			return;
 		}
 
-		string sentence = sentences.Dequeue();
+
+		Sentence sentence = sentences.Dequeue();
+		nameText.text = sentence.name;
 		StopAllCoroutines();
-		StartCoroutine(TypeSentence(sentence));
-		_lastSentece = sentence;
+		StartCoroutine(TypeSentence(sentence.text));
+		_lastSentece = sentence.text;
 	}
 
 	IEnumerator TypeSentence (string sentence)

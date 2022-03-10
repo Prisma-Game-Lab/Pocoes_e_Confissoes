@@ -15,7 +15,7 @@ public class BoardSenha : MonoBehaviour
     private float atualY;
     private GameObject ingredienteAdd;
 
-    //Numero total de ingredientes já colocados nessa tentativa
+    //Numero total de ingredientes jï¿½ colocados nessa tentativa
     private int totalInLine;
     private int currentLine;
 
@@ -29,9 +29,9 @@ public class BoardSenha : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void CalculatePosition()
     {
-        //Quando a linha encher, o proximo será colocado na debaixo
+        //Quando a linha encher, o proximo serï¿½ colocado na debaixo
         if (totalInLine >= 3)
         {
             totalInLine = 0;
@@ -51,6 +51,7 @@ public class BoardSenha : MonoBehaviour
 
     public void AddIngrediente(int ingNumber)
     {
+        CalculatePosition();
         ingredienteAdd = Instantiate(ingredientes[ingNumber], new Vector3(atualX, atualY, 0f), Quaternion.identity);
         totalInLine++;
         atualX += 1.5f;

@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Dialogue {
-	public List<Sentence> sentences; 
+public class Sentence {
+
+	public string name;
+
+	[TextArea(2, 10)]
+	public string text;
+
 }
