@@ -9,6 +9,8 @@ public class DialogueManager : MonoBehaviour {
 	public Text dialogueText;
     public GameObject dialogueObject;
 	private Queue<string> sentences;
+	private bool _typing;
+	private string _lastSentece;
 
 	void Start () {
 		sentences = new Queue<string>();
@@ -16,7 +18,6 @@ public class DialogueManager : MonoBehaviour {
 
 	public void StartDialogue (Dialogue dialogue)
 	{
-        //SET ACTIVE
         dialogueObject.SetActive(true);
         
 		nameText.text = dialogue.name;
@@ -33,6 +34,12 @@ public class DialogueManager : MonoBehaviour {
 
 	public void DisplayNextSentence ()
 	{
+		if (_typing)
+		{
+			EndSentence(_lastSentece);
+			return;
+		}
+
 		if (sentences.Count == 0)
 		{
 			EndDialogue();
@@ -42,16 +49,29 @@ public class DialogueManager : MonoBehaviour {
 		string sentence = sentences.Dequeue();
 		StopAllCoroutines();
 		StartCoroutine(TypeSentence(sentence));
+		_lastSentece = sentence;
 	}
 
 	IEnumerator TypeSentence (string sentence)
 	{
+		_typing = true;
 		dialogueText.text = "";
-		foreach (char letter in sentence.ToCharArray())
+		string currentText = "";
+		
+		for (int i = 0; i < sentence.Length; i++)
 		{
-			dialogueText.text += letter;
-			yield return new WaitForSeconds(0.01f);
+			currentText = sentence.Substring(0,i) + "<color=#00000000>" + sentence.Substring(i) + "</color>";
+			dialogueText.text = currentText;
+			yield return new WaitForSeconds(0.005f);
 		}
+		EndSentence(sentence);
+	}
+
+	private void EndSentence(string sentence)
+	{
+		StopAllCoroutines();
+		_typing = false;
+		dialogueText.text = sentence;
 	}
 
 	void EndDialogue()
