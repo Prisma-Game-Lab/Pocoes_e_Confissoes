@@ -7,8 +7,11 @@ public class ButtonTrigger : MonoBehaviour
     public int ingredientNumber;
     public BoardSenha boardScript;
 
+    [Header("Atributos do Ingrediente")]
+    public int[] atributos;
+
     private void OnMouseDown()
     {
-        boardScript.AddIngrediente(ingredientNumber-1);
+        boardScript.AddIngrediente(atributos);
     }
 }
