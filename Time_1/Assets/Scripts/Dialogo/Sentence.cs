@@ -5,9 +5,12 @@ using UnityEngine;
 [System.Serializable]
 public class Sentence {
 
+	public enum Speaker {Player, Cliente}
+	public Speaker speaker;
+	[HideInInspector]
 	public string name;
 
-	[TextArea(2, 10)]
+	[TextArea(5, 10)]
 	public string text;
 
 }

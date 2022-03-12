@@ -417,7 +417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -533,7 +533,6 @@ GameObject:
   - component: {fileID: 702978294}
   - component: {fileID: 702978293}
   - component: {fileID: 702978292}
-  - component: {fileID: 702978291}
   m_Layer: 5
   m_Name: DEBUG - DialogueTrigger
   m_TagString: Untagged
@@ -561,26 +560,6 @@ RectTransform:
   m_AnchoredPosition: {x: -814.29047, y: 458.57715}
   m_SizeDelta: {x: 238.128, y: 96.834}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &702978291
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 702978289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aec656037b580b645ba59fd36dec0f68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    sentences:
-    - name: 
-      text: 
-    - name: 
-      text: 
-    - name: 
-      text: 
 --- !u!114 &702978292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -625,10 +604,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 702978291}
-        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+      - m_Target: {fileID: 11400000, guid: dd3ba81c7d129534bacf616d227b733e, type: 2}
+        m_TargetAssemblyTypeName: Client, Assembly-CSharp
         m_MethodName: TriggerDialogue
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
