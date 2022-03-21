@@ -10,8 +10,18 @@ public class ButtonTrigger : MonoBehaviour
     [Header("Atributos do Ingrediente")]
     public int[] atributos;
 
+    public int tipoDeAcao;
+
     private void OnMouseDown()
     {
-        boardScript.AddIngrediente(atributos);
+        if (tipoDeAcao == 1)
+        {
+            boardScript.AddIngrediente(atributos);
+
+        } else if (tipoDeAcao == 2) {
+
+            boardScript.RemoveLastIngredient();
+        }
+        
     }
 }

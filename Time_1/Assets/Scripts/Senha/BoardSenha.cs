@@ -25,6 +25,8 @@ public class BoardSenha : MonoBehaviour
     public int[] orderAtributes;
     public int numberOfAtributes;
     private int[] currentAtributes;
+    private int totalIngredients;
+    private int[][] lastAdded;
     public Text texto;
 
     // Start is called before the first frame update
@@ -35,7 +37,14 @@ public class BoardSenha : MonoBehaviour
         totalInLine = 0;
         currentLine = 1;*/
 
+        totalIngredients = 0;
         currentAtributes = new int[numberOfAtributes];
+
+        lastAdded = new int[3][];
+        lastAdded[0] = new int[numberOfAtributes];
+        lastAdded[1] = new int[numberOfAtributes];
+        lastAdded[2] = new int[numberOfAtributes];
+
         for (int i = 0; i < numberOfAtributes; i++)
         {
             currentAtributes[i] = 0;
@@ -69,15 +78,54 @@ public class BoardSenha : MonoBehaviour
         ingredienteAdd = Instantiate(ingredientes[ingNumber], new Vector3(atualX, atualY, 0f), Quaternion.identity);
         totalInLine++;
         atualX += 1.5f;*/
-        for (int i = 0; i < numberOfAtributes; i++)
+        if (totalIngredients < 3)
         {
-            currentAtributes[i] += atributos[i];
-            print(currentAtributes[i]);
-        }
+            for (int i = 0; i < numberOfAtributes; i++)
+            {
+                currentAtributes[i] += atributos[i];
+                print(currentAtributes[i]);
+            }
 
-        texto.text = "Atributo1 = " + currentAtributes[0].ToString() + " ---- " +
-                     "Atributo2 = " + currentAtributes[1].ToString() + " ---- " +
-                     "Atributo3 = " + currentAtributes[2].ToString() + " ---- " +
-                     "Atributo4 = " + currentAtributes[3].ToString() + " ---- ";
+            lastAdded[totalIngredients] = atributos;
+
+            texto.text = "Atributo1 = " + currentAtributes[0].ToString() + " ---- " +
+                         "Atributo2 = " + currentAtributes[1].ToString() + " ---- " +
+                         "Atributo3 = " + currentAtributes[2].ToString() + " ---- " +
+                         "Atributo4 = " + currentAtributes[3].ToString() + " ---- ";
+
+            totalIngredients++;
+        }
+        
+    }
+
+    public void RemoveLastIngredient()
+    {
+        if (totalIngredients > 0)
+        {
+            for (int i = 0; i < numberOfAtributes; i++)
+            {
+                currentAtributes[i] -= lastAdded[totalIngredients - 1][i];
+            }
+
+            texto.text = "Atributo1 = " + currentAtributes[0].ToString() + " ---- " +
+                         "Atributo2 = " + currentAtributes[1].ToString() + " ---- " +
+                         "Atributo3 = " + currentAtributes[2].ToString() + " ---- " +
+                         "Atributo4 = " + currentAtributes[3].ToString() + " ---- ";
+
+            lastAdded[totalIngredients - 1] = new int[numberOfAtributes];
+            totalIngredients--;
+        }
+        
+    }
+
+    public void CheckRecipe()
+    {
+        if (totalIngredients < 3)
+        {
+            int restante = 3 - totalIngredients;
+            texto.text = "Coloque mais " + restante.ToString() + " ingrediente(s)";
+        } else {
+            /* INSIRA CHECAGEM DO PEDIDO AQUI */
+        }
     }
 }
