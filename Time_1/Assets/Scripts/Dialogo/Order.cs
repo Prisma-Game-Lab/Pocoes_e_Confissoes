@@ -5,5 +5,9 @@ using UnityEngine;
 [System.Serializable]
 public class Order
 {
-    public Dialogue dialogue;
+
+    public enum Sabor {Picante, Refrescante, Amargo, Doce, Salgado};
+    public Dialogue pedido;
+    public List<Sabor> sabores;
+    public Dialogue[] respostas;
 }

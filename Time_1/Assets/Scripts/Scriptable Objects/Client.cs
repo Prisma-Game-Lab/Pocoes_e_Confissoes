@@ -12,7 +12,7 @@ public class Client : ScriptableObject
     {
         foreach(Order order in orders)
         {
-            foreach(Sentence sentence in order.dialogue.sentences)
+            foreach(Sentence sentence in order.pedido.sentences)
             {
                 switch (sentence.speaker)
                 {
@@ -27,10 +27,33 @@ public class Client : ScriptableObject
                         break;
                 }
             }
+            for (int i = 0; i < order.respostas.Length; i++)
+            {
+                foreach(Sentence sentence in order.respostas[i].sentences)
+                {
+                    switch (sentence.speaker)
+                    {
+                        case Sentence.Speaker.Cliente:
+                            sentence.name = this.name;
+                            break;
+                        case Sentence.Speaker.Player:
+                            sentence.name = "Player";
+                            break;
+                        default:
+                            sentence.name = "ERRO";
+                            break;
+                    }
+                }
+            }
         }
     }
-    public void TriggerDialogue (int i)
+    public void TriggerPedido(int i)
 	{
-		FindObjectOfType<DialogueManager>().StartDialogue(orders[i].dialogue);
+		FindObjectOfType<DialogueManager>().StartDialogue(orders[i].pedido);
 	}
+
+    public void TriggerResposta(Order.Sabor s)
+    {
+        
+    }
 }
