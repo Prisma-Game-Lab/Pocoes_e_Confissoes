@@ -5,4 +5,5 @@ using UnityEngine;
 [System.Serializable]
 public class Dialogue{
 	public List<Sentence> sentences;
+	[HideInInspector] public int type;
 }

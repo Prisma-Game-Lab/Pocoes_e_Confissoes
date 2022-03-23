@@ -10,7 +10,6 @@ public class ButtonTrigger : MonoBehaviour
 
     public Order.Sabor sabor;
     public Consistencia tipo;
-
     public int tipoDeAcao;
     [HideInInspector]public int[] tipoIngrediente;
 
@@ -54,13 +53,13 @@ public class ButtonTrigger : MonoBehaviour
     }
 
     private void OnMouseDown()
-    {
+    {        
+        if (FindObjectOfType<GameManager>().mouseOverUI)
+            return;
         if (tipoDeAcao == 1)
         {
             boardScript.AddIngrediente(tipoIngrediente);
-
         } else if (tipoDeAcao == 2) {
-
             boardScript.RemoveIngredient();
         } else if (tipoDeAcao == 3) {
             boardScript.CheckRecipe();

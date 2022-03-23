@@ -18,9 +18,9 @@ public class MenuController : MonoBehaviour
     }
     public void LoadSettings()
     {
-        if (PlayerPrefs.HasKey("masterVolume"))
+        if (PlayerPrefs.HasKey("SoundFXVolume"))
         {
-            SetVolume(PlayerPrefs.GetFloat("masterVolume"));
+            SetVolume(PlayerPrefs.GetFloat("SoundFXVolume"));
         }
         else
         {
@@ -33,7 +33,7 @@ public class MenuController : MonoBehaviour
         AudioListener.volume = volume/100f;
         volumeSlider.value = volume;
         volumeTextValue.text = volume.ToString();
-        PlayerPrefs.SetFloat("masterVolume", volume);
+        PlayerPrefs.SetFloat("SoundFXVolume", volume);
     }
 
     public void ResetValues(string s)

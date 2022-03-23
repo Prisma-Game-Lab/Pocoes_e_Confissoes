@@ -11,13 +11,15 @@ public class DialogueManager : MonoBehaviour {
 	private Queue<Sentence> sentences;
 	private bool _typing;
 	private string _lastSentece;
-
+	private int currentType;
+	
 	void Start () {
 		sentences = new Queue<Sentence>();
 	}
 
 	public void StartDialogue (Dialogue dialogue)
 	{
+		currentType = dialogue.type;
         dialogueObject.SetActive(true);
         
 		sentences.Clear();
@@ -77,6 +79,10 @@ public class DialogueManager : MonoBehaviour {
 	void EndDialogue()
 	{
         dialogueObject.SetActive(false);
+		if (currentType == 1)
+		{
+			FindObjectOfType<GameManager>().AdvanceClient();
+		}
 	}
 
 }

@@ -27,9 +27,11 @@ public class Client : ScriptableObject
                         break;
                 }
             }
-            for (int i = 0; i < order.respostas.Length; i++)
+            Dialogue[] respostas = new Dialogue[] {order.respostaAmargo, order.respostaPicante, order.respostaDoce, order.respostaRefrescante, order.respostaSalgado};
+            for (int i = 0; i < respostas.Length; i++)
             {
-                foreach(Sentence sentence in order.respostas[i].sentences)
+                respostas[i].type = 1;
+                foreach(Sentence sentence in respostas[i].sentences)
                 {
                     switch (sentence.speaker)
                     {
@@ -52,8 +54,31 @@ public class Client : ScriptableObject
 		FindObjectOfType<DialogueManager>().StartDialogue(orders[i].pedido);
 	}
 
-    public void TriggerResposta(Order.Sabor s)
+    public void TriggerResposta(int i, Order.Sabor s)
     {
-        
+        Dialogue d;
+        switch (s)
+        {
+            case Order.Sabor.Picante:
+                d = orders[i].respostaPicante;
+                break;
+            case Order.Sabor.Refrescante:
+                d = orders[i].respostaRefrescante;
+                break;
+            case Order.Sabor.Amargo:
+                d = orders[i].respostaAmargo;
+                break;
+            case Order.Sabor.Doce:
+                d = orders[i].respostaDoce;
+                break;
+            case Order.Sabor.Salgado:
+                d = orders[i].respostaSalgado;
+                break;
+            default:
+                d = orders[i].respostaAmargo;
+                break;
+
+        }
+        FindObjectOfType<DialogueManager>().StartDialogue(d);
     }
 }

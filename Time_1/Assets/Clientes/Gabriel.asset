@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e6a8fa91fe1b7419fb68717a7d89fb, type: 3}
+  m_Name: Gabriel
+  m_EditorClassIdentifier: 
+  orders:
+  - pedido:
+      sentences:
+      - speaker: 0
+        name: Player
+        text: FALA BRABO
+      - speaker: 1
+        name: Gabriel
+        text: DESCE UM GIN
+    respostaPicante:
+      sentences:
+      - speaker: 1
+        name: Gabriel
+        text: PORRA VEIO FORTE
+    respostaRefrescante:
+      sentences:
+      - speaker: 1
+        name: 
+        text: SUAVE
+    respostaAmargo:
+      sentences:
+      - speaker: 1
+        name: Gabriel
+        text: AMARGAO PO
+    respostaDoce:
+      sentences:
+      - speaker: 1
+        name: 
+        text: DOCIN
+    respostaSalgado:
+      sentences:
+      - speaker: 1
+        name: 
+        text: PRESSAO ALTA

@@ -37,6 +37,7 @@ public class BoardSenha : MonoBehaviour
         totalIngredients = 0;
 
         bebida = new int[3];
+        UpdateText();
         for (int i = 0; i < 3; i++)
         {
             bebida[i] = 0;
@@ -60,10 +61,14 @@ public class BoardSenha : MonoBehaviour
                 Debug.Log(totalSolidos);
             }
 
-            texto.text = bebida[0].ToString() + " - " + bebida[1].ToString() + " - " + bebida[2].ToString();
+            UpdateText();
         }
     }
 
+    private void UpdateText()
+    {
+        texto.text = bebida[0].ToString() + " - " + bebida[1].ToString() + " - " + bebida[2].ToString();
+    }
     public void RemoveIngredient()
     {
         if (totalIngredients > 0)
@@ -74,6 +79,7 @@ public class BoardSenha : MonoBehaviour
             totalIngredients = 0;
 
             bebida = new int[3];
+            UpdateText();
         }
         
     }
@@ -104,23 +110,24 @@ public class BoardSenha : MonoBehaviour
         switch (resultado)
         {
             case 0:
-                cliente.TriggerResposta(Order.Sabor.Picante);
+                cliente.TriggerResposta(0,Order.Sabor.Picante);
                 break;
             case 1:
-                cliente.TriggerResposta(Order.Sabor.Refrescante);
+                cliente.TriggerResposta(0,Order.Sabor.Refrescante);
                 break;
             case 2:
-                cliente.TriggerResposta(Order.Sabor.Amargo);
+                cliente.TriggerResposta(0,Order.Sabor.Amargo);
                 break;
             case 3:
-                cliente.TriggerResposta(Order.Sabor.Doce);
+                cliente.TriggerResposta(0,Order.Sabor.Doce);
                 break;
             case 4:
-                cliente.TriggerResposta(Order.Sabor.Salgado);
+                cliente.TriggerResposta(0,Order.Sabor.Salgado);
                 break;
             default:
                 Debug.Log("Sabor nao encontrado");
                 break;
         }
+        RemoveIngredient();
     }
 }
