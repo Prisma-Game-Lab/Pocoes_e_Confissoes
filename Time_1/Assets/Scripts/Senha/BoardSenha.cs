@@ -22,110 +22,105 @@ public class BoardSenha : MonoBehaviour
 
     [Header(" ")]
     //Vetores com os atributos do pedido
-    public int[] orderAtributes;
-    public int numberOfAtributes;
-    private int[] currentAtributes;
     private int totalIngredients;
-    private int[][] lastAdded;
+    private int totalSolidos;
+    private int totalLiquidos;
+    private int[] bebida;
+    public Client cliente;
     public Text texto;
 
     // Start is called before the first frame update
     void Start()
     {
-        /*atualX = primeiroX;
-        atualY = primeiroY;
-        totalInLine = 0;
-        currentLine = 1;*/
-
+        totalSolidos = 0;
+        totalLiquidos = 0;
         totalIngredients = 0;
-        currentAtributes = new int[numberOfAtributes];
 
-        lastAdded = new int[3][];
-        lastAdded[0] = new int[numberOfAtributes];
-        lastAdded[1] = new int[numberOfAtributes];
-        lastAdded[2] = new int[numberOfAtributes];
-
-        for (int i = 0; i < numberOfAtributes; i++)
+        bebida = new int[3];
+        for (int i = 0; i < 3; i++)
         {
-            currentAtributes[i] = 0;
+            bebida[i] = 0;
         }
     }
 
-    // Update is called once per frame
-    /*void CalculatePosition()
+    public void AddIngrediente(int[] tipoIngrediente)
     {
-        //Quando a linha encher, o proximo ser� colocado na debaixo
-        if (totalInLine >= 3)
-        {
-            totalInLine = 0;
-            atualX = primeiroX;
-            atualY -= 1.5f;
-            currentLine++;
-
-            if (currentLine == 6)
-            {
-                primeiroX = 6f;
-                atualX = primeiroX;
-                atualY = primeiroY;
-            }
-        }
-        
-    }*/
-
-    public void AddIngrediente(int[] atributos)
-    {
-        /*CalculatePosition();
-        ingredienteAdd = Instantiate(ingredientes[ingNumber], new Vector3(atualX, atualY, 0f), Quaternion.identity);
-        totalInLine++;
-        atualX += 1.5f;*/
         if (totalIngredients < 3)
         {
-            for (int i = 0; i < numberOfAtributes; i++)
+            if ((tipoIngrediente[0] == 0) && (totalLiquidos < 1)) {
+                bebida[2] = tipoIngrediente[1];
+                totalLiquidos = 1;
+                totalIngredients++;
+                Debug.Log(totalLiquidos);
+            } else if ((tipoIngrediente[0] == 1) && (totalSolidos < 2))
             {
-                currentAtributes[i] += atributos[i];
-                print(currentAtributes[i]);
+                bebida[totalSolidos] = tipoIngrediente[1];
+                totalSolidos++;
+                totalIngredients++;
+                Debug.Log(totalSolidos);
             }
 
-            lastAdded[totalIngredients] = atributos;
-
-            texto.text = "Atributo1 = " + currentAtributes[0].ToString() + " ---- " +
-                         "Atributo2 = " + currentAtributes[1].ToString() + " ---- " +
-                         "Atributo3 = " + currentAtributes[2].ToString() + " ---- " +
-                         "Atributo4 = " + currentAtributes[3].ToString() + " ---- ";
-
-            totalIngredients++;
+            texto.text = bebida[0].ToString() + " - " + bebida[1].ToString() + " - " + bebida[2].ToString();
         }
-        
     }
 
-    public void RemoveLastIngredient()
+    public void RemoveIngredient()
     {
         if (totalIngredients > 0)
         {
-            for (int i = 0; i < numberOfAtributes; i++)
-            {
-                currentAtributes[i] -= lastAdded[totalIngredients - 1][i];
-            }
 
-            texto.text = "Atributo1 = " + currentAtributes[0].ToString() + " ---- " +
-                         "Atributo2 = " + currentAtributes[1].ToString() + " ---- " +
-                         "Atributo3 = " + currentAtributes[2].ToString() + " ---- " +
-                         "Atributo4 = " + currentAtributes[3].ToString() + " ---- ";
+            totalSolidos = 0;
+            totalLiquidos = 0;
+            totalIngredients = 0;
 
-            lastAdded[totalIngredients - 1] = new int[numberOfAtributes];
-            totalIngredients--;
+            bebida = new int[3];
         }
         
     }
 
     public void CheckRecipe()
     {
+        int resultado;
+
         if (totalIngredients < 3)
         {
             int restante = 3 - totalIngredients;
             texto.text = "Coloque mais " + restante.ToString() + " ingrediente(s)";
+            return;
         } else {
-            /* INSIRA CHECAGEM DO PEDIDO AQUI */
+            if ((bebida[0] == bebida[1]) || (bebida[0] == bebida[2]))
+            {
+                resultado = bebida[0];
+            } else if (bebida[1] == bebida[2]) {
+                resultado = bebida[1];
+            } else {
+                resultado = bebida[2];
+            }
+
+            texto.text = bebida[0].ToString() + " - " + bebida[1].ToString() + " - " + bebida[2].ToString()
+                + " - " + resultado.ToString();
+        }
+
+        switch (resultado)
+        {
+            case 0:
+                cliente.TriggerResposta(Order.Sabor.Picante);
+                break;
+            case 1:
+                cliente.TriggerResposta(Order.Sabor.Refrescante);
+                break;
+            case 2:
+                cliente.TriggerResposta(Order.Sabor.Amargo);
+                break;
+            case 3:
+                cliente.TriggerResposta(Order.Sabor.Doce);
+                break;
+            case 4:
+                cliente.TriggerResposta(Order.Sabor.Salgado);
+                break;
+            default:
+                Debug.Log("Sabor nao encontrado");
+                break;
         }
     }
 }
