@@ -21,28 +21,35 @@ MonoBehaviour:
       - speaker: 1
         name: Gabriel
         text: DESCE UM GIN
+      type: 0
     respostaPicante:
       sentences:
       - speaker: 1
         name: Gabriel
         text: PORRA VEIO FORTE
+      type: 1
     respostaRefrescante:
       sentences:
       - speaker: 1
-        name: 
+        name: Gabriel
         text: SUAVE
+      type: 1
     respostaAmargo:
       sentences:
       - speaker: 1
         name: Gabriel
         text: AMARGAO PO
+      type: 1
     respostaDoce:
       sentences:
       - speaker: 1
-        name: 
+        name: Gabriel
         text: DOCIN
+      type: 1
     respostaSalgado:
       sentences:
       - speaker: 1
-        name: 
+        name: Gabriel
         text: PRESSAO ALTA
+      type: 1
+    respostas: []

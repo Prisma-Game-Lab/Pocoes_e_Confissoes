@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     public List<Client> clientes;
     [HideInInspector] public int currentClient;
 
-    public bool mouseOverUI;
+    [HideInInspector] public bool mouseOverUI;
 
     public void StartGame()
     {
