@@ -1,0 +1,492 @@
+fileFormatVersion: 2
+guid: e54346f2ab81e13429c1acfedae9919f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7629029492011486646
+    second: Spritesheet Mulher Lagarto_0
+  - first:
+      213: 1413591964207503057
+    second: Spritesheet Mulher Lagarto_1
+  - first:
+      213: -5697451598426801297
+    second: Spritesheet Mulher Lagarto_2
+  - first:
+      213: -2822973168316620834
+    second: Spritesheet Mulher Lagarto_3
+  - first:
+      213: 7177332517552672848
+    second: Spritesheet Mulher Lagarto_4
+  - first:
+      213: -8353578345293557892
+    second: Spritesheet Mulher Lagarto_5
+  - first:
+      213: -7317121192296007047
+    second: Spritesheet Mulher Lagarto_6
+  - first:
+      213: 3784027782628793602
+    second: Spritesheet Mulher Lagarto_7
+  - first:
+      213: 4873957750712492460
+    second: Spritesheet Mulher Lagarto_8
+  - first:
+      213: 1614395268980620567
+    second: Spritesheet Mulher Lagarto_9
+  - first:
+      213: 566245174481461030
+    second: Spritesheet Mulher Lagarto_10
+  - first:
+      213: -5210732905167206483
+    second: Spritesheet Mulher Lagarto_11
+  - first:
+      213: 7576912174112165525
+    second: Spritesheet Mulher Lagarto_12
+  - first:
+      213: -4737425465145807207
+    second: Spritesheet Mulher Lagarto_13
+  - first:
+      213: 4104714920181746271
+    second: Spritesheet Mulher Lagarto_14
+  - first:
+      213: 6203273332404610855
+    second: Spritesheet Mulher Lagarto_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet Mulher Lagarto_0
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1045
+        width: 142
+        height: 269
+      alignment: 9
+      pivot: {x: 0.5919832, y: 0.84798706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdc25417e1cfd960800000000000000
+      internalID: 7629029492011486646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet Mulher Lagarto_1
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1046
+        width: 140
+        height: 268
+      alignment: 9
+      pivot: {x: 0.46890083, y: 0.84928554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d65fe3e6661e9310800000000000000
+      internalID: 1413591964207503057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet Mulher Lagarto_2
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1225
+        width: 193
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bf9c625f59ee0b0800000000000000
+      internalID: -5697451598426801297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet Mulher Lagarto_3
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 795
+        width: 534
+        height: 528
+      alignment: 9
+      pivot: {x: 0.5040777, y: 0.15570323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf57043cd8c2d8d0800000000000000
+      internalID: -2822973168316620834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet Mulher Lagarto_4
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1094
+        width: 118
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0505697c5e10b9360800000000000000
+      internalID: 7177332517552672848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet Mulher Lagarto_5
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 730
+        width: 196
+        height: 253
+      alignment: 9
+      pivot: {x: 0.38960826, y: 0.90826416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fc16d01c0221c80800000000000000
+      internalID: -8353578345293557892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet Mulher Lagarto_6
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 733
+        width: 194
+        height: 264
+      alignment: 9
+      pivot: {x: 0.6215449, y: 0.90272754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ab6ba1b0d547a90800000000000000
+      internalID: -7317121192296007047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet Mulher Lagarto_7
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 987
+        width: 127
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d5ccb3831938430800000000000000
+      internalID: 3784027782628793602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet Mulher Lagarto_8
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 830
+        width: 24
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5228475, y: 0.8849812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1ea7d30c6c3a340800000000000000
+      internalID: 4873957750712492460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet Mulher Lagarto_9
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 421
+        width: 185
+        height: 230
+      alignment: 9
+      pivot: {x: 0.1587498, y: 0.8880634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d39a691fb776610800000000000000
+      internalID: 1614395268980620567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet Mulher Lagarto_10
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 433
+        width: 191
+        height: 224
+      alignment: 9
+      pivot: {x: 0.8191327, y: 0.86930275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f1fb07cf4bbd700800000000000000
+      internalID: 566245174481461030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet Mulher Lagarto_11
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 147
+        width: 393
+        height: 598
+      alignment: 9
+      pivot: {x: 0.49049124, y: 0.29065716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7c118c702cfa7b0800000000000000
+      internalID: -5210732905167206483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet Mulher Lagarto_12
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 521
+        width: 255
+        height: 242
+      alignment: 9
+      pivot: {x: 0.491468, y: 0.9315647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ec9486a79962960800000000000000
+      internalID: 7576912174112165525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet Mulher Lagarto_13
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 240
+        width: 158
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e2810b3a8414eb0800000000000000
+      internalID: -4737425465145807207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet Mulher Lagarto_14
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 234
+        width: 158
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5acda1e870e6f830800000000000000
+      internalID: 4104714920181746271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet Mulher Lagarto_15
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 332
+        width: 126
+        height: 107
+      alignment: 9
+      pivot: {x: 0.49999902, y: 0.11582961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72761aeba34761650800000000000000
+      internalID: 6203273332404610855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
