@@ -50,6 +50,9 @@ TextureImporter:
   - first:
       213: 6203273332404610855
     second: Spritesheet Mulher Lagarto_15
+  - first:
+      213: 408755633129869663
+    second: Mulher Lagarto_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -315,7 +318,7 @@ TextureImporter:
         width: 24
         height: 47
       alignment: 9
-      pivot: {x: 0.5228475, y: 0.8849812}
+      pivot: {x: 0.5349172, y: 1.014438}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -470,6 +473,27 @@ TextureImporter:
       bones: []
       spriteID: 72761aeba34761650800000000000000
       internalID: 6203273332404610855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mulher Lagarto_0
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1225
+        width: 194
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5155a825113ca500800000000000000
+      internalID: 408755633129869663
       vertices: []
       indices: 
       edges: []
