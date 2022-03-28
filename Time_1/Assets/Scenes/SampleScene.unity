@@ -277,12 +277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cca7870d025b7ff49affbf15a611b94c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipContent: "Alguns dizem que s\xE3o as l\xE1grimas de seus inimigos frustrados
-    pela derrota. Outros comentam sobre a possibilidade de ser a sobra de um ciclope
-    amargurado que, por mais triste que tenha vivido, se recusava a chorar. Alguns
-    at\xE9 mesmo levantam a hip\xF3tese de ser apenas um bule em forma de olho com
-    \xE1gua salgada. Mas, o que ningu\xE9m pode negar \xE9 a altera\xE7\xE3o, at\xE9
-    de modo raivoso, que esse ingrediente pode deixar aqueles que o consomem."
+  tooltipContent: "Tristes e preciosas l\xE1grimas salgadas de sereia."
   tooltipHeader: "Bule de L\xE1grimas"
 --- !u!1 &271474336
 GameObject:
@@ -1081,7 +1076,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cca7870d025b7ff49affbf15a611b94c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipContent: ' Doce'
+  tooltipContent: "S\xF3 observa\u2026 Efeito colateral: docinho energizante para
+    sua bebida."
   tooltipHeader: "Olho de Guaran\xE1"
 --- !u!1 &677517402
 GameObject:
@@ -1594,7 +1590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cca7870d025b7ff49affbf15a611b94c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipContent: ' Amargo'
+  tooltipContent: Erva?! HMMMM. Amargo.
   tooltipHeader: Erva do Monte Matte
 --- !u!1 &844620624
 GameObject:
@@ -2154,7 +2150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tooltipContent: 
-  tooltipHeader: "Escama de Boitat\xE1 "
+  tooltipHeader: "ESCAMAS DE BOITAT\xC1"
 --- !u!1 &1279795820
 GameObject:
   m_ObjectHideFlags: 0
@@ -3013,7 +3009,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cca7870d025b7ff49affbf15a611b94c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipContent: ' Amargo'
+  tooltipContent: "Esse sangue amargo \xE9 t\xE3o belo quanto suor sagrado."
   tooltipHeader: Sangue de Pastoreio
 --- !u!1 &1745372084
 GameObject:
@@ -3130,7 +3126,7 @@ MonoBehaviour:
   m_IgnoreLayout: 0
   m_MinWidth: -1
   m_MinHeight: -1
-  m_PreferredWidth: 100
+  m_PreferredWidth: 300
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
