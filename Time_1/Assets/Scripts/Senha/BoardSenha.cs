@@ -19,6 +19,7 @@ public class BoardSenha : MonoBehaviour
         totalSolidos = 0;
         totalLiquidos = 0;
         totalIngredients = 0;
+        botao.SetActive(false);
 
         bebida = new int[3];
         UpdateText();
@@ -47,7 +48,6 @@ public class BoardSenha : MonoBehaviour
 
             UpdateText();
             if (totalIngredients == 3) { botao.SetActive(true); }
-            else { botao.SetActive(false); }
         }
     }
 
@@ -84,6 +84,7 @@ public class BoardSenha : MonoBehaviour
 
             bebida = new int[3];
             UpdateText();
+            botao.SetActive(false);
         }
         
     }
