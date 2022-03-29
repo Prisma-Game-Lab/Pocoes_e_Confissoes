@@ -371,12 +371,12 @@ GameObject:
   - component: {fileID: 311229514}
   - component: {fileID: 311229516}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: EntregarButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &311229513
 Transform:
   m_ObjectHideFlags: 0
@@ -385,7 +385,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 311229512}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 4.08, y: -3.79, z: 0}
+  m_LocalPosition: {x: 3.75, y: -3.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 844845394}
@@ -3549,6 +3549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cliente: {fileID: 0}
   texto: {fileID: 701598878}
+  botao: {fileID: 311229512}
 --- !u!212 &2031287732
 SpriteRenderer:
   m_ObjectHideFlags: 0

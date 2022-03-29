@@ -11,6 +11,7 @@ public class BoardSenha : MonoBehaviour
     private int[] bebida;
     public Client cliente;
     public Text texto;
+    public GameObject botao;
 
     // Start is called before the first frame update
     void Start()
@@ -45,6 +46,8 @@ public class BoardSenha : MonoBehaviour
             }
 
             UpdateText();
+            if (totalIngredients == 3) { botao.SetActive(true); }
+            else { botao.SetActive(false); }
         }
     }
 
