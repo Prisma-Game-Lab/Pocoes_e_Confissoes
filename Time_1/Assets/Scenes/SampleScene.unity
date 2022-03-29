@@ -277,8 +277,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cca7870d025b7ff49affbf15a611b94c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipContent: "Tristes e preciosas l\xE1grimas salgadas de sereia."
-  tooltipHeader: "Bule de L\xE1grimas"
+  tooltipContent: " Tristes e preciosas l\xE1grimas salgadas de sereia."
+  tooltipHeader: " Bule de L\xE1grimas"
 --- !u!1 &271474336
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,9 +1076,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cca7870d025b7ff49affbf15a611b94c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipContent: "S\xF3 observa\u2026 Efeito colateral: docinho energizante para
-    sua bebida."
-  tooltipHeader: "Olho de Guaran\xE1"
+  tooltipContent: ' Um doce de encher os olhos.'
+  tooltipHeader: " Olho de Guaran\xE1"
 --- !u!1 &677517402
 GameObject:
   m_ObjectHideFlags: 0
@@ -1590,8 +1589,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cca7870d025b7ff49affbf15a611b94c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipContent: Erva?! HMMMM. Amargo.
-  tooltipHeader: Erva do Monte Matte
+  tooltipContent: " Erva? \xC9 pra ch\xE1! S\xF3 cuidado para n\xE3o amargar!"
+  tooltipHeader: ' Erva do Monte Matte'
 --- !u!1 &844620624
 GameObject:
   m_ObjectHideFlags: 0
@@ -1835,10 +1834,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cca7870d025b7ff49affbf15a611b94c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipContent: "Apenas para os brabos ou para os fortes de cora\xE7\xE3o, caso
-    queira cair em profunda admira\xE7\xE3o em um amor plat\xF4nico ou n\xE3o, s\xF3
-    beba caso seja rei na arte da sedu\xE7\xE3o."
-  tooltipHeader: "Cacha\xE7a de Lobisomem"
+  tooltipContent: " Aguardente t\xE3o forte que vai te deixar pulando num p\xE9 s\xF3."
+  tooltipHeader: " Cachaci Perer\xEA"
 --- !u!1 &984340402
 GameObject:
   m_ObjectHideFlags: 0
@@ -1994,7 +1991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tooltipContent: ' Doce'
-  tooltipHeader: "Leite Vegano de Boi Bumb\xE1"
+  tooltipHeader: " Leite Vegano de Boi Bumb\xE1"
 --- !u!1 &987589412
 GameObject:
   m_ObjectHideFlags: 0
@@ -2149,8 +2146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cca7870d025b7ff49affbf15a611b94c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipContent: 
-  tooltipHeader: "ESCAMAS DE BOITAT\xC1"
+  tooltipContent: " Flocos escamosos flamejantes ardentes para trazer pic\xE2ncia."
+  tooltipHeader: " Escama de Boitat\xE1"
 --- !u!1 &1279795820
 GameObject:
   m_ObjectHideFlags: 0
@@ -2305,8 +2302,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cca7870d025b7ff49affbf15a611b94c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipContent: ' Salgado'
-  tooltipHeader: "Raspas de Chifre de Unic\xF3rnio "
+  tooltipContent: " Salgadinho e viciante, use com modera\xE7\xE3o. (nenhum unic\xF3rnio
+    foi ferido, ou foi, n\xE3o sei mais\u2026)"
+  tooltipHeader: " Raspas de Chifre de Unic\xF3rnio "
 --- !u!1 &1323000241
 GameObject:
   m_ObjectHideFlags: 0
@@ -2461,9 +2459,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cca7870d025b7ff49affbf15a611b94c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipContent: "Refrescante como passar o dia mais quente do ano relaxando na
-    sua pr\xF3pria lagoa congelante."
-  tooltipHeader: "\xC1gua de Nai\xE1"
+  tooltipContent: " N\xE3o \xE9 \xE1gua mineral mas voc\xEA vai ficar legal."
+  tooltipHeader: " \xC1gua de Nai\xE1 "
 --- !u!1 &1324732531
 GameObject:
   m_ObjectHideFlags: 0
@@ -2720,8 +2717,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cca7870d025b7ff49affbf15a611b94c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipContent: ' Refrescante'
-  tooltipHeader: Pelo de Limonster
+  tooltipContent: ' Saboroso e tenebroso, refrescante na medida certa.'
+  tooltipHeader: ' Pelo de Limonster'
 --- !u!1 &1412916272
 GameObject:
   m_ObjectHideFlags: 0
@@ -3009,8 +3006,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cca7870d025b7ff49affbf15a611b94c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipContent: "Esse sangue amargo \xE9 t\xE3o belo quanto suor sagrado."
-  tooltipHeader: Sangue de Pastoreio
+  tooltipContent: " A vida \xE9 amarga, esse sangue \xE9 mais\u2026"
+  tooltipHeader: ' Sangue de Pastoreio'
 --- !u!1 &1745372084
 GameObject:
   m_ObjectHideFlags: 0
