@@ -5,23 +5,6 @@ using UnityEngine.UI;
 
 public class BoardSenha : MonoBehaviour
 {
-    //[Header("Lista com Prefabs de Ingredientes")]
-    //public GameObject[] ingredientes;
-
-    /*[Header("Layout do Board")]
-    public float primeiroX;
-    public float primeiroY;
-
-    private float atualX;
-    private float atualY;
-    private GameObject ingredienteAdd;
-
-    //Numero total de ingredientes j� colocados nessa tentativa
-    private int totalInLine;
-    private int currentLine;*/
-
-    [Header(" ")]
-    //Vetores com os atributos do pedido
     private int totalIngredients;
     private int totalSolidos;
     private int totalLiquidos;
@@ -67,7 +50,25 @@ public class BoardSenha : MonoBehaviour
 
     private void UpdateText()
     {
-        texto.text = bebida[0].ToString() + " - " + bebida[1].ToString() + " - " + bebida[2].ToString();
+        string parte1 = "";
+        string parte2 = "";
+
+        int restante = 3 - totalIngredients;
+        if (restante > 0) {
+            parte1 = "Coloque mais " + restante.ToString() + " ingredientes:\n";
+        }
+
+        restante = 1 - totalLiquidos;
+        if (restante > 0) {
+            parte2 = parte2 + restante.ToString() + " líquido\n";
+        }
+
+        restante = 2 - totalSolidos;
+        if (restante > 0){
+            parte2 = parte2 + restante.ToString() + " sólido(s)";
+        }
+
+        texto.text = parte1 + parte2;
     }
     public void RemoveIngredient()
     {
@@ -103,8 +104,8 @@ public class BoardSenha : MonoBehaviour
                 resultado = bebida[2];
             }
 
-            texto.text = bebida[0].ToString() + " - " + bebida[1].ToString() + " - " + bebida[2].ToString()
-                + " - " + resultado.ToString();
+            //texto.text = bebida[0].ToString() + " - " + bebida[1].ToString() + " - " + bebida[2].ToString()
+                //+ " - " + resultado.ToString();
         }
 
         switch (resultado)
