@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: 092b567ac7b683e479e602853b033498
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1775593354014418914
+    second: Corno_0
+  - first:
+      213: 3696324060077303264
+    second: Corno_2
+  - first:
+      213: -2047200034902957091
+    second: Corno_4
+  - first:
+      213: -1893345727679661456
+    second: Corno_5
+  - first:
+      213: -5129147445016872650
+    second: Corno_19
+  - first:
+      213: 5833576915502016378
+    second: Corno_20
+  - first:
+      213: 7092710807860532424
+    second: Corno_21
+  - first:
+      213: -5117508823989482823
+    second: Corno_22
+  - first:
+      213: 3513904243330082385
+    second: Corno_23
+  - first:
+      213: 3529907542529370116
+    second: Corno_24
+  - first:
+      213: -6984352416015219587
+    second: Corno_25
+  - first:
+      213: 1427408097579934449
+    second: Corno_15
+  - first:
+      213: 1795363535250473037
+    second: Corno_6
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Corno_0
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1367
+        width: 224
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e181d648043db57e0800000000000000
+      internalID: -1775593354014418914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corno_2
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1371
+        width: 223
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e523af062bfb4330800000000000000
+      internalID: 3696324060077303264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corno_4
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 995
+        width: 474
+        height: 399
+      alignment: 9
+      pivot: {x: 0.49540767, y: 0.10171241}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3217f2a62e693e0800000000000000
+      internalID: -2047200034902957091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corno_5
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 402
+        width: 657
+        height: 924
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03351243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a76a0971c79b5e0800000000000000
+      internalID: -1893345727679661456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corno_19
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 512
+        width: 184
+        height: 454
+      alignment: 9
+      pivot: {x: 0.20421998, y: 0.9459374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639ba2bf29b91d8b0800000000000000
+      internalID: -5129147445016872650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corno_20
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 551
+        width: 475
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5045832, y: 0.107168406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77aa6a0c4705f050800000000000000
+      internalID: 5833576915502016378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corno_21
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 110
+        width: 340
+        height: 239
+      alignment: 9
+      pivot: {x: 0.53841686, y: 0.9189927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4d915a6ee5e6260800000000000000
+      internalID: 7092710807860532424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corno_22
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 167
+        width: 157
+        height: 294
+      alignment: 9
+      pivot: {x: 0.6973014, y: 0.950183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba0e2b96d4faf8b0800000000000000
+      internalID: -5117508823989482823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corno_23
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 51
+        width: 188
+        height: 274
+      alignment: 9
+      pivot: {x: 0.70970446, y: 0.95734936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1566d66ba45e3c030800000000000000
+      internalID: 3513904243330082385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corno_24
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 431
+        width: 36
+        height: 66
+      alignment: 9
+      pivot: {x: 0.7284614, y: 0.109541}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4086f6a2530ccf030800000000000000
+      internalID: 3529907542529370116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corno_25
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 431
+        width: 36
+        height: 66
+      alignment: 9
+      pivot: {x: 0.21061876, y: 0.10123328}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7485497b78921f90800000000000000
+      internalID: -6984352416015219587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corno_15
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1018
+        width: 185
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2a4cd1a1c2fc310800000000000000
+      internalID: 1427408097579934449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corno_6
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1151
+        width: 85
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d404b418f996ae810800000000000000
+      internalID: 1795363535250473037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 1
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
