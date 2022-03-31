@@ -17,15 +17,15 @@ MonoBehaviour:
       sentences:
       - speaker: 0
         name: Player
-        text: Oi! Eu queria uma bebida, por favor.
+        text: O que vai querer hoje amigo?
       - speaker: 1
-        name: Gabriel
-        text: Oi! Eu queria uma bebida, por favor.
+        name: "Jovem universit\xE1rio"
+        text: "Oi! Eu queria uma po\xE7\xE3o, por favor."
       type: 0
     respostaPicante:
       sentences:
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "Hmmm\u2026 Del\xEDcia!\r\n"
       - speaker: 0
         name: Player
@@ -33,7 +33,7 @@ MonoBehaviour:
 
 '
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: 'Picante, gostei! Acho que vai me deixar bem disposto para ter um dia
           extremamente produtivo no trabalho!
 
@@ -42,7 +42,7 @@ MonoBehaviour:
         name: Player
         text: Compromissado!
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: 'Tenho que ser perfeito!
 
 '
@@ -50,22 +50,22 @@ MonoBehaviour:
         name: Player
         text: "Se voc\xEA diz\u2026\r\n"
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "Dessa forma eu me destaco em meio aos outros! \n"
       - speaker: 0
         name: Player
         text: "Entendi\u2026\n"
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "Sabe como \xE9 o mercado n\xE9? Conseguir um emprego est\xE1 muito
           dif\xEDcil! \n"
       - speaker: 0
         name: Player
         text: "Sei como \xE9! N\xE3o ta f\xE1cil pra ningu\xE9m!\n"
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "Exatamente por isso preciso ser eficiente! Falando nisso tenho que
-          ir, um bom dia para voc\xEA e obrigado pelo drink!\r\n\n"
+          ir, um bom dia para voc\xEA e obrigado pela bebida!\r\n\n"
       - speaker: 0
         name: Player
         text: 'Boa sorte no trabalho!
@@ -75,19 +75,19 @@ MonoBehaviour:
     respostaRefrescante:
       sentences:
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "Isso t\xE1 muito bom! To at\xE9 mais relaxado!"
       - speaker: 0
         name: Player
         text: "\xC9 bom estarmos calmos para funcionarmos direito!"
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "Verdade. Mas s\xE3o raros os momentos que posso me dar esse luxo.\r\n"
       - speaker: 0
         name: Player
         text: "Ent\xE3o aproveita! Hahaha\r\n"
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "Hahaha. N\xE3o posso me distrair do trabalho n\xE9!"
       - speaker: 0
         name: Player
@@ -95,7 +95,7 @@ MonoBehaviour:
           que gostamos ou n\xE3o fazermos nada mesmo que tamb\xE9m n\xE3o tem problema
           algum!\r\n"
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "Com essa bebida aqui eu to indo mais pro caminho de ficar de bobeira
           mesmo! Eu normalmente estaria com os nervos \xE0 flor da pele.\r\n"
       - speaker: 0
@@ -103,7 +103,7 @@ MonoBehaviour:
         text: "Todo trabalho tem seus momentos de estresse. Mas n\xE3o podemos transformar
           disso a nossa realidade 24 horas!\r\n"
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "S\xE1bias palavras hehe\r\n"
       - speaker: 0
         name: Player
@@ -111,7 +111,7 @@ MonoBehaviour:
 
 '
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "Bom s\xF3 o papo e o drink j\xE1 me acalmaram pra seguir com o meu
           trabalho, mas agora tenho que voltar! tchau tchau\n"
       - speaker: 0
@@ -123,19 +123,19 @@ MonoBehaviour:
     respostaAmargo:
       sentences:
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "Valeu\u2026 amargo"
       - speaker: 0
         name: Player
         text: Ta tudo bem?
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "Eu consegui o trabalho dos meus sonhos sabia\u2026\r\n"
       - speaker: 0
         name: Player
         text: "Meus parab\xE9ns! Seus pais devem estar orgulhosos!"
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "Essa \xE9 a quest\xE3o. Sou eu e minha m\xE3e na verdade, e a gente
           n\xE3o se fala muito\u2026"
       - speaker: 0
@@ -143,27 +143,27 @@ MonoBehaviour:
         text: "Por que voc\xEA n\xE3o conta essa grande not\xEDcia pra ela? Tenho
           certeza que ela vai adorar!\r\n"
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "\xC9\u2026 eu n\xE3o sei\u2026 "
       - speaker: 0
         name: Player
         text: "Pode ser um bom come\xE7o para uma reaproxima\xE7\xE3o!\r\n"
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: Ah ela deve estar ocupada!
       - speaker: 0
         name: Player
         text: "Cara, n\xE3o t\xEAm nada mais gratificante para uma m\xE3e do que
           a felicidade do filho. Fica a dica, liga pra ela.\r\n"
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: Quer saber? Eu vou fazer isso!
       - speaker: 0
         name: Player
         text: Boa!
       - speaker: 1
-        name: Gabriel
-        text: Valeu pelo conselho e pela bebida!
+        name: "Jovem universit\xE1rio"
+        text: "Valeu pelo conselho e pela po\xE7\xE3o!"
       - speaker: 0
         name: Player
         text: Tamo junto amigo!
@@ -171,13 +171,13 @@ MonoBehaviour:
     respostaDoce:
       sentences:
       - speaker: 1
-        name: Gabriel
-        text: Valeu! Ta docinho!b Tava precisando!
+        name: "Jovem universit\xE1rio"
+        text: Valeu! Ta docinha! Tava precisando!
       - speaker: 0
         name: Player
         text: "Dia dif\xEDcil?"
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "Nem me fala. Eu consegui esse emprego e n\xE3o posso perder de forma
           alguma! Meu chefe est\xE1 cobrando resultados e mesmo fazendo tudo que
           ele me pede sinto que ele vai me botar na rua!\r\n"
@@ -185,7 +185,7 @@ MonoBehaviour:
         name: Player
         text: "N\xE3o se cobra tanto. Voc\xEA parece bem compromissado com seu trabalho\r!\n"
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "Voc\xEA n\xE3o entende\u2026 Esse trabalho \xE9 minha vida, \xE9 tudo
           para mim. Tenho contas a pagar!\r\n"
       - speaker: 0
@@ -194,20 +194,18 @@ MonoBehaviour:
           Estou fazendo um bom trabalho? Se sim, maravilha! Se n\xE3o, onde posso
           melhorar. \r\n"
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: Eu realmente gosto desse trabalho!
       - speaker: 0
         name: Player
         text: "Se fazemos aquilo que amamos o resultado \xE9 consequ\xEAncia de nossa
           paix\xE3o!"
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "Frase de tio essa hahaha. Mas voc\xEA n\xE3o deixa de ter raz\xE3o!\r\n"
       - speaker: 1
-        name: Gabriel
-        text: 'Tenho que ir que ta na minha hora! Valeu pela bebida e pela conversa!
-
-'
+        name: "Jovem universit\xE1rio"
+        text: "Tenho que ir que ta na minha hora! Valeu pela po\xE7\xE3o e pela conversa!\n"
       - speaker: 0
         name: Player
         text: "Quando quiser voc\xEA sabe onde o bar fica!\r\n"
@@ -215,13 +213,13 @@ MonoBehaviour:
     respostaSalgado:
       sentences:
       - speaker: 1
-        name: Gabriel
-        text: "Obrigado!\r Salgado... diferente mas gostoso!\n"
+        name: "Jovem universit\xE1rio"
+        text: "Obrigado!\r Salgada... diferente mas ta bem bom!\n"
       - speaker: 0
         name: Player
         text: Por nada!
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "[Falando consigo mesmo] Se eu organizar a planilha agora eu devo conseguir
           estruturar a tabela mais tarde e isso vai reduzir meu tempo para fazer
           os c\xE1lculos.\r\n"
@@ -229,26 +227,26 @@ MonoBehaviour:
         name: Player
         text: "\u2026\r\n"
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "Voc\xEA deve me achar maluco, n\xE9? Falando sozinho assim\u2026\r\n"
       - speaker: 0
         name: Player
         text: "Amigo, j\xE1 passou cada indiv\xEDduo aqui que voc\xEA n\xE3o acreditaria! "
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "\xC0s vezes eu acho que vou ter um colapso nervoso, sabia?\r\n"
       - speaker: 0
         name: Player
         text: "J\xE1 pensou em procurar ajuda?\r\n"
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "Voc\xEA t\xE1 falando de psic\xF3logo?? De jeito nenhum! Se eu n\xE3o
           falar dos meus problemas n\xE3o terei mais problemas!"
       - speaker: 0
         name: Player
         text: "Tenho quase certeza que n\xE3o \xE9 assim que nossa mente funciona\u2026\r\n"
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "Me desculpe mas n\xE3o pretendo fazer psic\xF3logo.\r\n"
       - speaker: 0
         name: Player
@@ -256,10 +254,10 @@ MonoBehaviour:
           fazer. Temos que cuidar da nossa sa\xFAde f\xEDsica e mental se queremos
           viver e trabalhar direito.\r\n"
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: "Hmmm\u2026 Anotado! Quem sabe?"
       - speaker: 1
-        name: Gabriel
+        name: "Jovem universit\xE1rio"
         text: Bom eu vou indo. Obrigado pela bebida!
       - speaker: 0
         name: Player
