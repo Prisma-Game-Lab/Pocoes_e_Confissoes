@@ -41,3 +41,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: "Balc\xE3o"
+    uniqueID: 215990579
+    locked: 0
