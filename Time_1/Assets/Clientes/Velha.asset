@@ -10,43 +10,44 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 41e6a8fa91fe1b7419fb68717a7d89fb, type: 3}
-  m_Name: Joao
+  m_Name: Velha
   m_EditorClassIdentifier: 
+  prefab: {fileID: 5835833479839466291, guid: c30ad8fa0792f1c4dbd4f4b4ffc3bf23, type: 3}
   orders:
   - pedido:
       sentences:
-      - speaker: 1
-        name: Joao
-        text: KOE DESCE UM X TUDO
+      - speaker: 0
+        name: Player
+        text: 
       type: 0
     respostaPicante:
       sentences:
-      - speaker: 1
-        name: Joao
-        text: PICANTE PRA PORRA
+      - speaker: 0
+        name: Player
+        text: 
       type: 1
     respostaRefrescante:
       sentences:
-      - speaker: 1
-        name: Joao
-        text: REFRESCANTE PRA PORRA
+      - speaker: 0
+        name: Player
+        text: 
       type: 1
     respostaAmargo:
       sentences:
-      - speaker: 1
-        name: Joao
-        text: AMARGAO DOIDO
+      - speaker: 0
+        name: Player
+        text: 
       type: 1
     respostaDoce:
       sentences:
-      - speaker: 1
-        name: Joao
-        text: DOCINHO
+      - speaker: 0
+        name: Player
+        text: 
       type: 1
     respostaSalgado:
       sentences:
-      - speaker: 1
-        name: Joao
-        text: DESCE O SAL
+      - speaker: 0
+        name: Player
+        text: 
       type: 1
     respostas: []

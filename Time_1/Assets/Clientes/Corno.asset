@@ -10,43 +10,44 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 41e6a8fa91fe1b7419fb68717a7d89fb, type: 3}
-  m_Name: Pedro
+  m_Name: Corno
   m_EditorClassIdentifier: 
+  prefab: {fileID: 3164035934923245741, guid: 35aebeb760a17444d99eb9519a75e541, type: 3}
   orders:
   - pedido:
       sentences:
       - speaker: 0
         name: Player
-        text: pedido
+        text: 
       type: 0
     respostaPicante:
       sentences:
       - speaker: 0
         name: Player
-        text: picante
+        text: 
       type: 1
     respostaRefrescante:
       sentences:
       - speaker: 0
         name: Player
-        text: refrescante
+        text: 
       type: 1
     respostaAmargo:
       sentences:
       - speaker: 0
         name: Player
-        text: amargo
+        text: 
       type: 1
     respostaDoce:
       sentences:
       - speaker: 0
         name: Player
-        text: doce
+        text: 
       type: 1
     respostaSalgado:
       sentences:
       - speaker: 0
         name: Player
-        text: salgado
+        text: 
       type: 1
     respostas: []

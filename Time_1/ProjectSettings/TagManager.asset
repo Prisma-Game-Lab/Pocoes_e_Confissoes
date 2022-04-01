@@ -44,3 +44,6 @@ TagManager:
   - name: "Balc\xE3o"
     uniqueID: 215990579
     locked: 0
+  - name: Personagem
+    uniqueID: 3880957657
+    locked: 0

@@ -6,8 +6,8 @@ using UnityEngine;
 
 public class Client : ScriptableObject
 {
+    public GameObject prefab;
     public List<Order> orders;
-
     private void OnValidate()
     {
         foreach(Order order in orders)
@@ -39,7 +39,7 @@ public class Client : ScriptableObject
                             sentence.name = this.name;
                             break;
                         case Sentence.Speaker.Player:
-                            sentence.name = "Player";
+                            sentence.name = "Atendente";
                             break;
                         default:
                             sentence.name = "ERRO";
@@ -79,6 +79,6 @@ public class Client : ScriptableObject
                 break;
 
         }
-        FindObjectOfType<DialogueManager>().StartDialogue(d);
+        FindObjectOfType<DialogueManager>().StartDialogueDelayed(d);
     }
 }

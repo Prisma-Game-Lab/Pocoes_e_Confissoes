@@ -134,6 +134,7 @@ public class BoardSenha : MonoBehaviour
                 break;
         }
         RemoveIngredient();
+        FindObjectOfType<GameManager>().SwitchScreen();
     }
     
 }

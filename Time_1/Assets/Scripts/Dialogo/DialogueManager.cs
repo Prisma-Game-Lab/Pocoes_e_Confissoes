@@ -17,7 +17,7 @@ public class DialogueManager : MonoBehaviour {
 		sentences = new Queue<Sentence>();
 	}
 
-	public void StartDialogue (Dialogue dialogue)
+	public void StartDialogue(Dialogue dialogue)
 	{
 		currentType = dialogue.type;
         dialogueObject.SetActive(true);
@@ -30,6 +30,17 @@ public class DialogueManager : MonoBehaviour {
 		}
 
 		DisplayNextSentence();
+	}
+
+	public void StartDialogueDelayed(Dialogue dialogue)
+	{
+		StartCoroutine(DelayedStartDialogue(dialogue));
+	}
+
+	private IEnumerator DelayedStartDialogue(Dialogue dialogue)
+	{
+		yield return new WaitForSeconds(1);
+		StartDialogue(dialogue);
 	}
 
 	public void DisplayNextSentence ()
@@ -81,7 +92,8 @@ public class DialogueManager : MonoBehaviour {
         dialogueObject.SetActive(false);
 		if (currentType == 1)
 		{
-			FindObjectOfType<GameManager>().AdvanceClient();
+			FindObjectOfType<GameManager>().EndClient();
+			StartCoroutine(FindObjectOfType<GameManager>().StartDelayed(2));
 		}
 	}
 

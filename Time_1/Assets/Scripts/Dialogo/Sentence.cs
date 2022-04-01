@@ -7,7 +7,6 @@ public class Sentence {
 
 	public enum Speaker {Player, Cliente}
 	public Speaker speaker;
-	[HideInInspector]
 	public string name;
 
 	[TextArea(5, 10)]
