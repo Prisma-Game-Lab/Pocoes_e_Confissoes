@@ -188,9 +188,152 @@ MonoBehaviour:
       type: 1
     respostaDoce:
       sentences:
+      - speaker: 1
+        name: Velha
+        text: "Hummm! \xC9 bem docinha."
       - speaker: 0
         name: Atendente
-        text: 
+        text: A senhora gostou?
+      - speaker: 1
+        name: Velha
+        text: "N\xE3o costumo pedir nada doce. Mas isso \xE9 muito bom!"
+      - speaker: 0
+        name: Atendente
+        text: Fico feliz em ouvir isso.
+      - speaker: 1
+        name: Velha
+        text: "\xC9 s\xE9rio. Sempre evitava a\xE7\xFAcar l\xE1 em casa por conta
+          das crian\xE7as."
+      - speaker: 1
+        name: Velha
+        text: "Mas agora\u2026"
+      - speaker: 1
+        name: Velha
+        text: "\u2026"
+      - speaker: 1
+        name: Velha
+        text: "Bom\u2026"
+      - speaker: 1
+        name: Velha
+        text: "Agora n\xE3o preciso mais me preocupar com isso."
+      - speaker: 1
+        name: Velha
+        text: Parando para pensar, devem ter muitas coisas novas que eu posso fazer
+          agora.
+      - speaker: 1
+        name: Velha
+        text: Eu tenho pensado muito ultimamente.
+      - speaker: 1
+        name: Velha
+        text: "E eu deveria come\xE7ar algo meu."
+      - speaker: 1
+        name: Velha
+        text: Algo por mim.
+      - speaker: 1
+        name: Velha
+        text: "Tenho pensado em abrir um novo neg\xF3cio."
+      - speaker: 1
+        name: Velha
+        text: "Talvez fazer uma p\xF3s gradua\xE7\xE3o e voltar a trabalhar na minha
+          \xE1rea."
+      - speaker: 0
+        name: Atendente
+        text: Parece muito bom. A senhora parece mais animada hoje.
+      - speaker: 1
+        name: Velha
+        text: Acho que sim. Quero muito fazer algo que eu nunca fiz.
+      - speaker: 0
+        name: Atendente
+        text: Como o que por exemplo?
+      - speaker: 1
+        name: Velha
+        text: "Aprender espanhol. Sempre quis aprender. Acho t\xE3o bonito. Mas nunca
+          era o momento certo."
+      - speaker: 1
+        name: Velha
+        text: "Se n\xE3o for agora, acho que nunca vou fazer."
+      - speaker: 1
+        name: Velha
+        text: Eu pensei em coisas pequenas. Qualquer coisa para sair do marasmo.
+      - speaker: 1
+        name: Velha
+        text: "Mas n\xE3o sei ainda o que fazer primeiro ou por onde come\xE7ar."
+      - speaker: 1
+        name: Velha
+        text: "Eu s\xF3 sei que n\xE3o d\xE1 mais para continuar desse jeito!"
+      - speaker: 0
+        name: Atendente
+        text: De que jeito?
+      - speaker: 1
+        name: Velha
+        text: "N\xE3o aguento mais ficar parada em casa o dia todo!"
+      - speaker: 1
+        name: Velha
+        text: "Eu nunca\u2026 me senti t\xE3o in\xFAtil!"
+      - speaker: 1
+        name: Velha
+        text: "Eu esperava que \xE0 essa altura da vida, eu j\xE1 teria tudo."
+      - speaker: 1
+        name: Velha
+        text: Teria tudo resolvido.
+      - speaker: 1
+        name: Velha
+        text: Esperava que a idade trouxesse sabedoria.
+      - speaker: 1
+        name: Velha
+        text: "Mas eu n\xE3o tenho mais certeza de nada."
+      - speaker: 1
+        name: Velha
+        text: "N\xE3o sei mais do que eu gosto, do que eu n\xE3o gosto\u2026"
+      - speaker: 0
+        name: Atendente
+        text: "Sempre existe algo novo a se descobrir sobre n\xF3s mesmos."
+      - speaker: 1
+        name: Velha
+        text: "Mas eu falo s\xE9rio! Faz tantos anos desde que eu parei de prestar
+          aten\xE7\xE3o em mim mesma."
+      - speaker: 1
+        name: Velha
+        text: "Que simplesmente nem me reconhe\xE7o mais!"
+      - speaker: 1
+        name: Velha
+        text: "E n\xE3o aguento mais isso!"
+      - speaker: 1
+        name: Velha
+        text: Preciso mudar! Preciso de algo novo! Ocupar o meu tempo. Ocupar o vazio.
+      - speaker: 1
+        name: Velha
+        text: Me reencontrar de novo.
+      - speaker: 0
+        name: Atendente
+        text: "Voc\xEA parece decidida."
+      - speaker: 1
+        name: Velha
+        text: "Estou. J\xE1 passou da hora de mudar isso."
+      - speaker: 1
+        name: Velha
+        text: "Eu t\xF4 velha mas n\xE3o t\xF4 morta!"
+      - speaker: 0
+        name: Atendente
+        text: "Acho que a situa\xE7\xE3o merece um brinde."
+      - speaker: 1
+        name: Velha
+        text: Oh! Um brinde seria perfeito.
+      - speaker: 1
+        name: Velha
+        text: "Um brinde \xE0 um novo come\xE7o!\r\n"
+      - speaker: 0
+        name: Atendente
+        text: Tim tim!
+      - speaker: 1
+        name: Velha
+        text: Eu realmente precisava disso.
+      - speaker: 1
+        name: Velha
+        text: Obrigada pela bebida, por favor fique com o troco.
+      - speaker: 0
+        name: Atendente
+        text: Disponha, volte sempre.
       type: 1
     respostaSalgado:
       sentences:
