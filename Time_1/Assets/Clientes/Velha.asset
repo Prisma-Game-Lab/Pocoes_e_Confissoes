@@ -18,36 +18,184 @@ MonoBehaviour:
       sentences:
       - speaker: 0
         name: Player
-        text: 
+        text: Boa noite, o que a senhora gostaria?
+      - speaker: 1
+        name: Velha
+        text: "Boa noite, vou querer uma po\xE7\xE3o por favor."
       type: 0
     respostaPicante:
       sentences:
+      - speaker: 1
+        name: Velha
+        text: "Puxa, essa \xE9 forte!"
       - speaker: 0
-        name: Player
-        text: 
+        name: Atendente
+        text: "Essa \xE9 a especialidade da casa."
+      - speaker: 1
+        name: Velha
+        text: "Faz tempo que n\xE3o tomo uma t\xE3o picante."
+      - speaker: 1
+        name: Velha
+        text: Me faz lembrar um pouco de quando eu era jovem.
+      - speaker: 0
+        name: Atendente
+        text: "S\xE9rio? Interessante ouvir isso."
+      - speaker: 0
+        name: Atendente
+        text: "Vou adicionar nostalgia aos efeitos colaterais da po\xE7\xE3o."
+      - speaker: 1
+        name: Velha
+        text: "Acho que n\xE3o \xE9 um efeito colateral da po\xE7\xE3o. \xC9 um efeito
+          da idade."
+      - speaker: 1
+        name: Velha
+        text: "Depois de um tempo tudo que resta \xE9 a saudade da juventude."
+      - speaker: 1
+        name: Velha
+        text: "Ah! Era t\xE3o cheia de vida, t\xE3o livre."
+      - speaker: 1
+        name: Velha
+        text: Ai como era bom.
+      - speaker: 1
+        name: Velha
+        text: "Era cheeeeia de sonhos.\r"
+      - speaker: 1
+        name: Velha
+        text: "Ai ai\u2026 Quando ser\xE1 que eu parei?"
+      - speaker: 0
+        name: Atendente
+        text: Parou com o que? Sonhar?
+      - speaker: 1
+        name: Velha
+        text: "Sim. Mas n\xE3o s\xF3 isso. Acho que chegou em um ponto em que eu
+          simplesmente parei.\r"
+      - speaker: 1
+        name: Velha
+        text: "E eu n\xE3o sei quando tudo come\xE7ou."
+      - speaker: 1
+        name: Velha
+        text: "N\xE3o sei quando foi que eu comecei a me sentir t\xE3o\u2026"
+      - speaker: 1
+        name: Velha
+        text: "Me sentir t\xE3o\u2026"
+      - speaker: 1
+        name: Velha
+        text: "T\xE3o incapaz."
+      - speaker: 1
+        name: Velha
+        text: "T\xE3o paralizada."
+      - speaker: 1
+        name: Velha
+        text: "T\xE3o\u2026"
+      - speaker: 1
+        name: Velha
+        text: "\u2026"
+      - speaker: 1
+        name: Velha
+        text: "Me sinto pat\xE9tica."
+      - speaker: 0
+        name: Atendente
+        text: "N\xE3o devia se sentir pat\xE9tica por ter sentimentos."
+      - speaker: 1
+        name: Velha
+        text: "N\xE3o sei."
+      - speaker: 1
+        name: Velha
+        text: "N\xE3o consigo deixar de me questionar \u201Cquando foi que eu me
+          tornei isso?\u201D."
+      - speaker: 1
+        name: Velha
+        text: "Quando foi que eu parei de acreditar\u2026 em mim mesma?"
+      - speaker: 1
+        name: Velha
+        text: ...
+      - speaker: 0
+        name: Atendente
+        text: "Nunca \xE9 tarde para mudar as coisas."
+      - speaker: 1
+        name: Velha
+        text: "Isso \xE9 algo que eu diria quando era mais jovem."
+      - speaker: 1
+        name: Velha
+        text: "Algo como \u201CAntes tarde do que mais tarde ainda n\xE3o \xE9 mesmo?\u201D."
+      - speaker: 1
+        name: Velha
+        text: "\xC9."
+      - speaker: 1
+        name: Velha
+        text: "Acho que j\xE1 me negligenciei por tempo demais."
+      - speaker: 1
+        name: Velha
+        text: "\xC9 o que acontece quando voc\xEA dedica sua vida a cuidar dos outros."
+      - speaker: 1
+        name: Velha
+        text: "Voc\xEA termina sozinha."
+      - speaker: 1
+        name: Velha
+        text: "Sozinha resmungando sobre a sua vida miser\xE1vel com estranhos."
+      - speaker: 1
+        name: Velha
+        text: "Com todo respeito, \xE9 claro."
+      - speaker: 0
+        name: Atendente
+        text: "N\xE3o me incomodo, senhora. Por favor, fique \xE0 vontade."
+      - speaker: 1
+        name: Velha
+        text: Muita gentileza da sua parte.
+      - speaker: 1
+        name: Velha
+        text: "Mas n\xE3o vou alugar mais seus ouvidos por hoje, me traga a conta
+          por favor."
+      - speaker: 1
+        name: Velha
+        text: Preciso ir. Tem algo que eu preciso resolver.
+      - speaker: 0
+        name: Atendente
+        text: "Mas \xE9 claro senhora, aqui est\xE1."
+      - speaker: 1
+        name: Velha
+        text: Muito obrigada.
+      - speaker: 1
+        name: Velha
+        text: Esqueci de cuidar de uma pessoa importante.
+      - speaker: 1
+        name: Velha
+        text: Por muito tempo esqueci de cuidar de mim mesma.
+      - speaker: 1
+        name: Velha
+        text: Muito obrigada por me lembrar.
+      - speaker: 0
+        name: Atendente
+        text: "Disponha. Fico feliz em atend\xEA-la."
+      - speaker: 1
+        name: Velha
+        text: Tenha uma boa noite.
+      - speaker: 0
+        name: Atendente
+        text: Boa noite senhora.
       type: 1
     respostaRefrescante:
       sentences:
       - speaker: 0
-        name: Player
+        name: Atendente
         text: 
       type: 1
     respostaAmargo:
       sentences:
       - speaker: 0
-        name: Player
+        name: Atendente
         text: 
       type: 1
     respostaDoce:
       sentences:
       - speaker: 0
-        name: Player
+        name: Atendente
         text: 
       type: 1
     respostaSalgado:
       sentences:
       - speaker: 0
-        name: Player
+        name: Atendente
         text: 
       type: 1
     respostas: []
