@@ -176,9 +176,104 @@ MonoBehaviour:
       type: 1
     respostaRefrescante:
       sentences:
+      - speaker: 1
+        name: Velha
+        text: Refrescante! Exatamente o que eu precisava.
       - speaker: 0
         name: Atendente
-        text: 
+        text: "Nesse calor tem sido a po\xE7\xE3o que mais sai."
+      - speaker: 0
+        name: Atendente
+        text: "\xC9 bom poder sentir um frescor. Sinto que mere\xE7o depois de tudo
+          que aconteceu."
+      - speaker: 0
+        name: Atendente
+        text: "Dia dif\xEDcil?"
+      - speaker: 1
+        name: Velha
+        text: "Tem sido um per\xEDodo dif\xEDcil."
+      - speaker: 1
+        name: Velha
+        text: Cada dia tem sido um novo desafio.
+      - speaker: 1
+        name: Velha
+        text: "N\xE3o imaginava passar por esse tipo de coisa ao envelhecer."
+      - speaker: 0
+        name: Atendente
+        text: Que tipo de coisa?
+      - speaker: 1
+        name: Velha
+        text: Incertezas.
+      - speaker: 1
+        name: Velha
+        text: Tantas incertezas.
+      - speaker: 1
+        name: Velha
+        text: 'Altos e baixos. '
+      - speaker: 1
+        name: Velha
+        text: "Nunca tive tanto tempo. Tanto espa\xE7o. Tanto vazio."
+      - speaker: 1
+        name: Velha
+        text: "De certo modo \xE9 um recome\xE7o: desafiador, revigorante e assustador."
+      - speaker: 0
+        name: Atendente
+        text: "As coisas est\xE3o sempre mudando."
+      - speaker: 0
+        name: Atendente
+        text: "Cabe a n\xF3s abra\xE7ar a efemeridade da vida."
+      - speaker: 0
+        name: Atendente
+        text: "Cada dia \xE9 um recome\xE7o. N\xE3o acha?"
+      - speaker: 1
+        name: Velha
+        text: "Olha s\xF3, voc\xEA fala bonito."
+      - speaker: 1
+        name: Velha
+        text: "Eu n\xE3o sei falar bem assim, mas vou te falar qual que \xE9 a grande
+          verdade da vida.\r\n"
+      - speaker: 1
+        name: Velha
+        text: "Quando voc\xEA pensa que entendeu algo, a vida te mostra que voc\xEA
+          n\xE3o sabia de merda nenhuma."
+      - speaker: 1
+        name: Velha
+        text: "Essa \xE9 a realidade."
+      - speaker: 1
+        name: Velha
+        text: "A vida pega suas expectativas, esmaga e te serve um milkshake de frustra\xE7\xE3o."
+      - speaker: 1
+        name: Velha
+        text: "Ent\xE3o por isso n\xE3o crie expectativas, crie codornas."
+      - speaker: 0
+        name: Atendente
+        text: "Ent\xE3o o grande segredo da vida \xE9 criar codornas para evitar
+          milkshake de frustra\xE7\xE3o?"
+      - speaker: 1
+        name: Velha
+        text: "Bom, existe outra maneira de evitar milkshakes de frustra\xE7\xE3o."
+      - speaker: 1
+        name: Velha
+        text: "Que \xE9 vindo at\xE9 o seu bar."
+      - speaker: 1
+        name: Velha
+        text: "Suas po\xE7\xF5es s\xE3o deliciosas."
+      - speaker: 0
+        name: Atendente
+        text: "Fico feliz que aprecie tanto as minhas cria\xE7\xF5es."
+      - speaker: 1
+        name: Velha
+        text: "Eu tomaria mais algumas, mas j\xE1 est\xE1 ficando tarde. Acho que
+          j\xE1 pode trazer a conta."
+      - speaker: 0
+        name: Atendente
+        text: Claro senhora, pode deixar.
+      - speaker: 1
+        name: Velha
+        text: "Aqui est\xE1. Muito obrigada pela bebida. Tenha uma boa noite."
+      - speaker: 0
+        name: Atendente
+        text: Disponha, tenha uma boa noite e volte sempre.
       type: 1
     respostaAmargo:
       sentences:
@@ -398,8 +493,113 @@ MonoBehaviour:
       type: 1
     respostaSalgado:
       sentences:
+      - speaker: 1
+        name: Velha
+        text: Um pouco mais salgado do que costumo pedir.
       - speaker: 0
         name: Atendente
-        text: 
+        text: "Pe\xE7o desculpas, posso refazer caso deseje senhora."
+      - speaker: 1
+        name: Velha
+        text: "Mas n\xE3o precisa. N\xE3o faz mal."
+      - speaker: 1
+        name: Velha
+        text: Sabe o que realmente faz mal?
+      - speaker: 0
+        name: Atendente
+        text: "A sociedade euroc\xEAntrica capitalista baseada na moral patriarcal
+          judaico crist\xE3?"
+      - speaker: 1
+        name: Velha
+        text: "Algo pior.\r"
+      - speaker: 0
+        name: Atendente
+        text: PIOR???
+      - speaker: 1
+        name: Velha
+        text: Filhos!
+      - speaker: 0
+        name: Atendente
+        text: Filhos?
+      - speaker: 1
+        name: Velha
+        text: Existe coisa mais ingrata nesse mundo do que filho???
+      - speaker: 0
+        name: Atendente
+        text: "N\xE3o sei dizer."
+      - speaker: 1
+        name: Velha
+        text: "Voc\xEA faz TUDO! D\xE1 tudo de si!"
+      - speaker: 1
+        name: Velha
+        text: Pra que?
+      - speaker: 1
+        name: Velha
+        text: Eu dei a minha vida pelos meus filhos!
+      - speaker: 1
+        name: Velha
+        text: "E agora\u2026"
+      - speaker: 1
+        name: Velha
+        text: "N\xE3o sobrou nada."
+      - speaker: 1
+        name: Velha
+        text: "\u2026"
+      - speaker: 0
+        name: Atendente
+        text: Sente falta deles?
+      - speaker: 1
+        name: Velha
+        text: Todos os dias.
+      - speaker: 1
+        name: Velha
+        text: Ainda lembro quando fui levar minha pequena no primeiro dia da escola.
+      - speaker: 1
+        name: Velha
+        text: "Era t\xE3o pequetinha, t\xE3o rechonchudinha."
+      - speaker: 1
+        name: Velha
+        text: "E eu, \xF3bvio, toda preocupada com ela."
+      - speaker: 1
+        name: Velha
+        text: "Estava pronta para ficar ali o tempo que fosse necess\xE1rio caso
+          ela chorasse."
+      - speaker: 1
+        name: Velha
+        text: "Mas chegando na porta ela ficou t\xE3o empolgada com a escola nova
+          que nem se despediu."
+      - speaker: 1
+        name: Velha
+        text: Virou as costas e se foi.
+      - speaker: 1
+        name: Velha
+        text: "E me deixou l\xE1."
+      - speaker: 1
+        name: Velha
+        text: Sozinha.
+      - speaker: 1
+        name: Velha
+        text: "Eu n\xE3o estava preparada."
+      - speaker: 1
+        name: Velha
+        text: E naquele dia quem chorou fui eu.
+      - speaker: 1
+        name: Velha
+        text: "\u2026"
+      - speaker: 1
+        name: Velha
+        text: "Bom\u2026"
+      - speaker: 1
+        name: Velha
+        text: Acho que chega de beber por hoje.
+      - speaker: 1
+        name: Velha
+        text: Traga a conta favor.
+      - speaker: 0
+        name: Atendente
+        text: Sim senhora.
+      - speaker: 1
+        name: Velha
+        text: Muito obrigada, tenha uma boa noite.
       type: 1
     respostas: []
