@@ -182,9 +182,70 @@ MonoBehaviour:
       type: 1
     respostaAmargo:
       sentences:
+      - speaker: 1
+        name: Velha
+        text: "Esse sabor \xE9 t\xE3o familiar."
       - speaker: 0
         name: Atendente
-        text: 
+        text: "Gosta de po\xE7\xF5es mais amargas?"
+      - speaker: 1
+        name: Velha
+        text: "Aprendi a apreciar. O que \xE9 o amargor de uma bebida em compara\xE7\xE3o
+          com o amargor de uma vida inteira."
+      - speaker: 1
+        name: Velha
+        text: Mais uma noite, mais um copo.
+      - speaker: 1
+        name: Velha
+        text: Mais do mesmo.
+      - speaker: 0
+        name: Atendente
+        text: Posso trazer um sabor diferente para a senhora.
+      - speaker: 1
+        name: Velha
+        text: Do que adiantaria mudar o sabor se eu continuo a mesma?
+      - speaker: 1
+        name: Velha
+        text: Tudo muda.
+      - speaker: 1
+        name: Velha
+        text: "Todos seguem em frente\u2026"
+      - speaker: 1
+        name: Velha
+        text: E eu?
+      - speaker: 1
+        name: Velha
+        text: Haha.
+      - speaker: 1
+        name: Velha
+        text: Eu continuo na mesma.
+      - speaker: 1
+        name: Velha
+        text: Estagnada.
+      - speaker: 1
+        name: Velha
+        text: E como poderia ser diferente?
+      - speaker: 0
+        name: Atendente
+        text: "Porque n\xE3o poderia ser diferente?"
+      - speaker: 0
+        name: Atendente
+        text: "\xC9 tarde demais."
+      - speaker: 1
+        name: Velha
+        text: Estou velha demais para isso.
+      - speaker: 1
+        name: Velha
+        text: "Esse \xE9 um n\xF3 na garganta o qual eu preciso engolir."
+      - speaker: 1
+        name: Velha
+        text: Mesmo que seja amargo.
+      - speaker: 1
+        name: Velha
+        text: "Mas agrade\xE7o pela preocupa\xE7\xE3o."
+      - speaker: 0
+        name: Atendente
+        text: Disponha senhora.
       type: 1
     respostaDoce:
       sentences:
