@@ -58,7 +58,7 @@ public class GameManager : MonoBehaviour
         {
             //Debug.Log("Fim do jogo");
             //return;
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("Final");
         }
 
         temp = Instantiate(clientes[order[currentClient]].prefab);
