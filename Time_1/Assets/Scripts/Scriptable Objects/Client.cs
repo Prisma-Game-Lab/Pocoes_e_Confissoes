@@ -20,7 +20,7 @@ public class Client : ScriptableObject
                         sentence.name = this.name;
                         break;
                     case Sentence.Speaker.Player:
-                        sentence.name = "Player";
+                        sentence.name = "Atendente";
                         break;
                     default:
                         sentence.name = "ERRO";

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 41e6a8fa91fe1b7419fb68717a7d89fb, type: 3}
-  m_Name: Velha
+  m_Name: Senhora
   m_EditorClassIdentifier: 
   prefab: {fileID: 5835833479839466291, guid: c30ad8fa0792f1c4dbd4f4b4ffc3bf23, type: 3}
   orders:
