@@ -2187,7 +2187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cca7870d025b7ff49affbf15a611b94c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipContent: Doce
+  tooltipContent: Feito de doces castanhas do caju nordestinas. Doce
   tooltipHeader: "Leite Vegano de Boi Bumb\xE1"
 --- !u!1 &987589412
 GameObject:
