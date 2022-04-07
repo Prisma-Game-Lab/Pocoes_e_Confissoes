@@ -5,13 +5,14 @@ using UnityEngine.Events;
 public class Button2d : MonoBehaviour
 {
     private void OnMouseDown()
-    {        
+    {   
         if (FindObjectOfType<GameManager>().mouseOverUI)
             return;
         if (FindObjectOfType<DialogueManager>()._talking)
             FindObjectOfType<DialogueManager>().DisplayNextSentence();
-        else
-        FindObjectOfType<GameManager>().PlayClient();
+        else 
+        if (!FindObjectOfType<GameManager>().delivered)
+            FindObjectOfType<GameManager>().PlayClient();
     }
 
 }

@@ -16,9 +16,23 @@ public class MenuController : MonoBehaviour
     [SerializeField] private AudioMixer audioMixer;
     [SerializeField] private float defaultVolume;
     [SerializeField] private float multiplier;
+    public GameObject FadeIn;
+    public GameObject FadeOut;
+    public GameObject creditsContainer;
+    public GameObject mainContainer;
 
     private void Start()
     {
+        if (GameStateManager.instance.completed)
+        {
+            
+            Instantiate(FadeIn);
+            creditsContainer.SetActive(true);
+            mainContainer.SetActive(false);
+            GameStateManager.instance.completed = false;
+            GameStateManager.instance.order = new List<int>();
+            GameStateManager.instance.currentClient = -1;
+        }
         LoadSettings();
     }
     public void LoadSettings()

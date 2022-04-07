@@ -3,7 +3,12 @@ guid: e4f247db459cdbe4989063f52c7bb982
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - board: {instanceID: 0}
+  - warning: {instanceID: 0}
+  - button: {instanceID: 0}
+  - fadeIn: {fileID: 9102284547388394313, guid: 1092aaa3d53872a4ca40d1bf0f5d6e9f, type: 3}
+  - fadeOut: {fileID: 1227790789288404360, guid: bed2b9d1c57710b46bb20421ec7597de, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
