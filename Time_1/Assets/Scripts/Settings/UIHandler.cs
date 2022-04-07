@@ -17,7 +17,7 @@ public class UIHandler : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
     private void OnDisable()
     {
-        if (FindObjectOfType<GameManager>().mouseOverUI)
+        if (FindObjectOfType<GameManager>())
         {
             FindObjectOfType<GameManager>().mouseOverUI = false;
         }

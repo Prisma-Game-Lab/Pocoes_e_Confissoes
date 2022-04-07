@@ -133,8 +133,11 @@ public class BoardSenha : MonoBehaviour
                 Debug.Log("Sabor nao encontrado");
                 break;
         }
+
         RemoveIngredient();
         FindObjectOfType<GameManager>().SwitchScreen();
+        FindObjectOfType<GameManager>().orderPlaced = false;
+        FindObjectOfType<GameManager>().button.SetActive(false);
     }
     
 }

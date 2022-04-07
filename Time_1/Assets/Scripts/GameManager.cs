@@ -11,11 +11,12 @@ public class GameManager : MonoBehaviour
     public Dialogue startingDialogue;
     [HideInInspector] public int currentClient;
     private GameObject temp = null;
-    private bool orderPlaced;
+    public bool orderPlaced;
     [HideInInspector] public bool mouseOverUI;
     public GameObject board;
     public GameObject warning;
-    public List<int> order;
+    [HideInInspector] public List<int> order;
+    public GameObject button;
 
     private void Start()
     {
@@ -26,6 +27,7 @@ public class GameManager : MonoBehaviour
         order = Shuffle(order);
         screen = true;
         orderPlaced = false;
+        button.SetActive(false);
         currentClient = -1;
         StartCoroutine(StartDelayed(2));
     }
@@ -46,7 +48,6 @@ public class GameManager : MonoBehaviour
     }
     public void AdvanceClient()
     {
-        orderPlaced = false;
         currentClient++;
         if (temp != null)
         {
@@ -69,6 +70,7 @@ public class GameManager : MonoBehaviour
     {
         clientes[order[currentClient]].TriggerPedido(0);
         orderPlaced = true;
+        button.SetActive(true);
     }
 
     void PlayStartingText()

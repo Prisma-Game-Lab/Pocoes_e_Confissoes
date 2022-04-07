@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour {
 	private bool _typing;
 	private string _lastSentece;
 	private int currentType;
+	public bool _talking;
 	
 	void Start () {
 		sentences = new Queue<Sentence>();
@@ -19,6 +20,7 @@ public class DialogueManager : MonoBehaviour {
 
 	public void StartDialogue(Dialogue dialogue)
 	{
+		_talking = true;
 		currentType = dialogue.type;
         dialogueObject.SetActive(true);
         
@@ -43,7 +45,7 @@ public class DialogueManager : MonoBehaviour {
 		StartDialogue(dialogue);
 	}
 
-	public void DisplayNextSentence ()
+	public void DisplayNextSentence()
 	{
 		if (_typing)
 		{
@@ -89,6 +91,7 @@ public class DialogueManager : MonoBehaviour {
 
 	void EndDialogue()
 	{
+		_talking = false;
         dialogueObject.SetActive(false);
 		if (currentType == 1)
 		{

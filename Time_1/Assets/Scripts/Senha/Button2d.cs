@@ -8,6 +8,9 @@ public class Button2d : MonoBehaviour
     {        
         if (FindObjectOfType<GameManager>().mouseOverUI)
             return;
+        if (FindObjectOfType<DialogueManager>()._talking)
+            FindObjectOfType<DialogueManager>().DisplayNextSentence();
+        else
         FindObjectOfType<GameManager>().PlayClient();
     }
 
