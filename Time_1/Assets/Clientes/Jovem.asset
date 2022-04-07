@@ -17,251 +17,316 @@ MonoBehaviour:
   - pedido:
       sentences:
       - speaker: 0
-        name: Player
+        name: Atendente
         text: O que vai querer hoje amigo?
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "Oi! Eu queria uma po\xE7\xE3o, por favor."
       type: 0
     respostaPicante:
       sentences:
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "Hmmm\u2026 Del\xEDcia!\r\n"
       - speaker: 0
-        name: Player
+        name: Atendente
         text: 'Minha especialidade!
 
 '
       - speaker: 1
-        name: "Jovem universit\xE1rio"
-        text: 'Picante, gostei! Acho que vai me deixar bem disposto para ter um dia
+        name: Jovem
+        text: Picante, gostei! Acho que vai me deixar bem disposto para ter um dia
           extremamente produtivo no trabalho!
-
-'
       - speaker: 0
-        name: Player
+        name: Atendente
         text: Compromissado!
       - speaker: 1
-        name: "Jovem universit\xE1rio"
-        text: 'Tenho que ser perfeito!
-
-'
+        name: Jovem
+        text: Tenho que ser perfeito!
       - speaker: 0
-        name: Player
+        name: Atendente
         text: "Se voc\xEA diz\u2026\r\n"
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "Dessa forma eu me destaco em meio aos outros! \n"
       - speaker: 0
-        name: Player
+        name: Atendente
         text: "Entendi\u2026\n"
       - speaker: 1
-        name: "Jovem universit\xE1rio"
-        text: "Sabe como \xE9 o mercado n\xE9? Conseguir um emprego est\xE1 muito
-          dif\xEDcil! \n"
+        name: Jovem
+        text: "Sabe como \xE9 o mercado n\xE9? \n"
       - speaker: 0
-        name: Player
+        name: Atendente
+        text: "Conseguir um emprego est\xE1 muito dif\xEDcil! "
+      - speaker: 0
+        name: Atendente
         text: "Sei como \xE9! N\xE3o ta f\xE1cil pra ningu\xE9m!\n"
       - speaker: 1
-        name: "Jovem universit\xE1rio"
-        text: "Exatamente por isso preciso ser eficiente! Falando nisso tenho que
-          ir, um bom dia para voc\xEA e obrigado pela bebida!\r\n\n"
-      - speaker: 0
-        name: Player
-        text: 'Boa sorte no trabalho!
+        name: Jovem
+        text: 'Exatamente por isso preciso ser eficiente!
 
 '
+      - speaker: 0
+        name: Atendente
+        text: "\xC9 sempre bom nos destacarmos em nosso trabalho, mas eu tamb\xE9m
+          acredito que viver preso na perfei\xE7\xE3o pode trazer coisas n\xE3o muito
+          boas."
+      - speaker: 0
+        name: Atendente
+        text: "Voc\xEA pode acabar se afastando das pessoas que se importam com voc\xEA!"
+      - speaker: 0
+        name: Atendente
+        text: "Temos que tomar cuidado para n\xE3o nos tornarmos \u201Cmalas\u201D."
+      - speaker: 1
+        name: Jovem
+        text: Obrigado por me chamar de mala.
+      - speaker: 0
+        name: Atendente
+        text: "Longe de mim dizer que voc\xEA \xE9 mala! Estou dizendo que temos
+          que ficar atentos para n\xE3o nos tornarmos pessoas chatas perto dos outros."
+      - speaker: 0
+        name: Atendente
+        text: "\xC9 s\xF3 um conselho, pois isso j\xE1 aconteceu com colegas meus
+          e n\xE3o foi uma situa\xE7\xE3o legal entende."
+      - speaker: 1
+        name: Jovem
+        text: Acho que entendi seu ponto
+      - speaker: 1
+        name: Jovem
+        text: "Realmente, com esse trabalho n\xE3o tive muito tempo para pensar nos
+          meus amigos!"
+      - speaker: 1
+        name: Jovem
+        text: Acho que vou marcar de fazer alguma coisa com eles esse fim de semana.
+      - speaker: 0
+        name: Atendente
+        text: "\xC9 uma \xF3tima ideia!"
+      - speaker: 0
+        name: Atendente
+        text: "Assim voc\xEA se organiza no trabalho e pode se divertir no fim de
+          semana!"
+      - speaker: 1
+        name: Jovem
+        text: Isso! Obrigado pelo conselho amigo!
+      - speaker: 0
+        name: Atendente
+        text: Feliz em ajudar!
       type: 1
     respostaRefrescante:
       sentences:
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "Isso t\xE1 muito bom! To at\xE9 mais relaxado!"
       - speaker: 0
-        name: Player
+        name: Atendente
         text: "\xC9 bom estarmos calmos para funcionarmos direito!"
       - speaker: 1
-        name: "Jovem universit\xE1rio"
-        text: "Verdade. Mas s\xE3o raros os momentos que posso me dar esse luxo.\r\n"
+        name: Jovem
+        text: "Verdade. \n"
+      - speaker: 1
+        name: Jovem
+        text: "Mas s\xE3o raros os momentos que posso me dar esse luxo.\r"
       - speaker: 0
-        name: Player
+        name: Atendente
         text: "Ent\xE3o aproveita! Hahaha\r\n"
       - speaker: 1
-        name: "Jovem universit\xE1rio"
-        text: "Hahaha. N\xE3o posso me distrair do trabalho n\xE9!"
-      - speaker: 0
-        name: Player
-        text: "\xC9 mas tamb\xE9m \xE9 bom termos um momento para n\xF3s! Fazer algo
-          que gostamos ou n\xE3o fazermos nada mesmo que tamb\xE9m n\xE3o tem problema
-          algum!\r\n"
+        name: Jovem
+        text: 'Hahaha. '
       - speaker: 1
-        name: "Jovem universit\xE1rio"
-        text: "Com essa bebida aqui eu to indo mais pro caminho de ficar de bobeira
-          mesmo! Eu normalmente estaria com os nervos \xE0 flor da pele.\r\n"
+        name: Jovem
+        text: "N\xE3o posso me distrair do trabalho n\xE9!"
       - speaker: 0
-        name: Player
+        name: Atendente
+        text: "\xC9 mas tamb\xE9m \xE9 bom termos um momento para n\xF3s! \n"
+      - speaker: 0
+        name: Atendente
+        text: "Fazer algo que gostamos ou n\xE3o fazermos nada mesmo que tamb\xE9m
+          n\xE3o tem problema algum!\r"
+      - speaker: 1
+        name: Jovem
+        text: Com essa bebida aqui eu to indo mais pro caminho de ficar de bobeira
+          mesmo!
+      - speaker: 1
+        name: Jovem
+        text: "N\xE3o sei o que tem aqui nessa po\xE7\xE3o mas ta me fazendo muito
+          bem!"
+      - speaker: 0
+        name: Atendente
+        text: "Eu percebi que voc\xEA parecia meio tenso. "
+      - speaker: 0
+        name: Atendente
+        text: Que bom que a bebida te fez bem!
+      - speaker: 1
+        name: Jovem
+        text: "Normalmente eu estaria com os nervos \xE0 flor da pele."
+      - speaker: 0
+        name: Atendente
         text: "Todo trabalho tem seus momentos de estresse. Mas n\xE3o podemos transformar
-          disso a nossa realidade 24 horas!\r\n"
+          isso em nossa realidade 24 horas!"
       - speaker: 1
-        name: "Jovem universit\xE1rio"
-        text: "S\xE1bias palavras hehe\r\n"
+        name: Jovem
+        text: "S\xE1bias palavras hehe."
       - speaker: 0
-        name: Player
-        text: 'Hahaha.
-
-'
+        name: Atendente
+        text: Hahaha.
+      - speaker: 0
+        name: Atendente
+        text: Uma vez ou outra eu consigo pensar em algo inteligente!
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "Bom s\xF3 o papo e o drink j\xE1 me acalmaram pra seguir com o meu
-          trabalho, mas agora tenho que voltar! tchau tchau\n"
+          trabalho, mas agora tenho que voltar! "
+      - speaker: 1
+        name: Jovem
+        text: Tchau, tchau!
       - speaker: 0
-        name: Player
-        text: 'Bom trabalho!
-
-'
+        name: Atendente
+        text: Bom trabalho!
+      - speaker: 1
+        name: Jovem
+        text: Obrigado!
       type: 1
     respostaAmargo:
       sentences:
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "Valeu\u2026 amargo"
       - speaker: 0
-        name: Player
+        name: Atendente
         text: Ta tudo bem?
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "Eu consegui o trabalho dos meus sonhos sabia\u2026\r\n"
       - speaker: 0
-        name: Player
+        name: Atendente
         text: "Meus parab\xE9ns! Seus pais devem estar orgulhosos!"
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "Essa \xE9 a quest\xE3o. Sou eu e minha m\xE3e na verdade, e a gente
           n\xE3o se fala muito\u2026"
       - speaker: 0
-        name: Player
+        name: Atendente
         text: "Por que voc\xEA n\xE3o conta essa grande not\xEDcia pra ela? Tenho
           certeza que ela vai adorar!\r\n"
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "\xC9\u2026 eu n\xE3o sei\u2026 "
       - speaker: 0
-        name: Player
+        name: Atendente
         text: "Pode ser um bom come\xE7o para uma reaproxima\xE7\xE3o!\r\n"
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: Ah ela deve estar ocupada!
       - speaker: 0
-        name: Player
+        name: Atendente
         text: "Cara, n\xE3o t\xEAm nada mais gratificante para uma m\xE3e do que
           a felicidade do filho. Fica a dica, liga pra ela.\r\n"
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: Quer saber? Eu vou fazer isso!
       - speaker: 0
-        name: Player
+        name: Atendente
         text: Boa!
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "Valeu pelo conselho e pela po\xE7\xE3o!"
       - speaker: 0
-        name: Player
+        name: Atendente
         text: Tamo junto amigo!
       type: 1
     respostaDoce:
       sentences:
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: Valeu! Ta docinha! Tava precisando!
       - speaker: 0
-        name: Player
+        name: Atendente
         text: "Dia dif\xEDcil?"
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "Nem me fala. Eu consegui esse emprego e n\xE3o posso perder de forma
           alguma! Meu chefe est\xE1 cobrando resultados e mesmo fazendo tudo que
           ele me pede sinto que ele vai me botar na rua!\r\n"
       - speaker: 0
-        name: Player
+        name: Atendente
         text: "N\xE3o se cobra tanto. Voc\xEA parece bem compromissado com seu trabalho\r!\n"
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "Voc\xEA n\xE3o entende\u2026 Esse trabalho \xE9 minha vida, \xE9 tudo
           para mim. Tenho contas a pagar!\r\n"
       - speaker: 0
-        name: Player
+        name: Atendente
         text: "Entendo mais do que voc\xEA imagina! Voc\xEA tem que se perguntar?
           Estou fazendo um bom trabalho? Se sim, maravilha! Se n\xE3o, onde posso
           melhorar. \r\n"
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: Eu realmente gosto desse trabalho!
       - speaker: 0
-        name: Player
+        name: Atendente
         text: "Se fazemos aquilo que amamos o resultado \xE9 consequ\xEAncia de nossa
           paix\xE3o!"
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "Frase de tio essa hahaha. Mas voc\xEA n\xE3o deixa de ter raz\xE3o!\r\n"
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "Tenho que ir que ta na minha hora! Valeu pela po\xE7\xE3o e pela conversa!\n"
       - speaker: 0
-        name: Player
+        name: Atendente
         text: "Quando quiser voc\xEA sabe onde o bar fica!\r\n"
       type: 1
     respostaSalgado:
       sentences:
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "Obrigado!\r Salgada... diferente mas ta bem bom!\n"
       - speaker: 0
-        name: Player
+        name: Atendente
         text: Por nada!
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "[Falando consigo mesmo] Se eu organizar a planilha agora eu devo conseguir
           estruturar a tabela mais tarde e isso vai reduzir meu tempo para fazer
           os c\xE1lculos.\r\n"
       - speaker: 0
-        name: Player
+        name: Atendente
         text: "\u2026\r\n"
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "Voc\xEA deve me achar maluco, n\xE9? Falando sozinho assim\u2026\r\n"
       - speaker: 0
-        name: Player
+        name: Atendente
         text: "Amigo, j\xE1 passou cada indiv\xEDduo aqui que voc\xEA n\xE3o acreditaria! "
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "\xC0s vezes eu acho que vou ter um colapso nervoso, sabia?\r\n"
       - speaker: 0
-        name: Player
+        name: Atendente
         text: "J\xE1 pensou em procurar ajuda?\r\n"
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "Voc\xEA t\xE1 falando de psic\xF3logo?? De jeito nenhum! Se eu n\xE3o
           falar dos meus problemas n\xE3o terei mais problemas!"
       - speaker: 0
-        name: Player
+        name: Atendente
         text: "Tenho quase certeza que n\xE3o \xE9 assim que nossa mente funciona\u2026\r\n"
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "Me desculpe mas n\xE3o pretendo fazer psic\xF3logo.\r\n"
       - speaker: 0
-        name: Player
+        name: Atendente
         text: "Voc\xEA tem todo o direito. Mas eu acredito que todos dever\xEDamos
           fazer. Temos que cuidar da nossa sa\xFAde f\xEDsica e mental se queremos
           viver e trabalhar direito.\r\n"
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: "Hmmm\u2026 Anotado! Quem sabe?"
       - speaker: 1
-        name: "Jovem universit\xE1rio"
+        name: Jovem
         text: Bom eu vou indo. Obrigado pela bebida!
       - speaker: 0
-        name: Player
+        name: Atendente
         text: 'Valeu!
 
 '

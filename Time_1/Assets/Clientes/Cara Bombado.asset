@@ -1,0 +1,496 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e6a8fa91fe1b7419fb68717a7d89fb, type: 3}
+  m_Name: Cara Bombado
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3164035934923245741, guid: 35aebeb760a17444d99eb9519a75e541, type: 3}
+  orders:
+  - pedido:
+      sentences:
+      - speaker: 0
+        name: Atendente
+        text: 'Boa noite! '
+      - speaker: 0
+        name: Atendente
+        text: O que posso lhe servir hoje?
+      - speaker: 1
+        name: Cara Bombado
+        text: Mas que semana, hein, camarada..
+      - speaker: 0
+        name: Atendente
+        text: "Ainda estamos na quarta\u2026"
+      - speaker: 1
+        name: Cara Bombado
+        text: "Seri\xE3o?! "
+      - speaker: 1
+        name: Cara Bombado
+        text: "Ent\xE3o me desce o que voc\xEA tem de mais forte a\xED, que eu t\xF4
+          necessitado, meu chapa!"
+      type: 0
+    respostaPicante:
+      sentences:
+      - speaker: 1
+        name: Cara Bombado
+        text: Eita, camarada!
+      - speaker: 1
+        name: Cara Bombado
+        text: "Essa aqui t\xE1 forte, hein."
+      - speaker: 0
+        name: Atendente
+        text: "As po\xE7\xF5es picantes s\xE3o a especialidade da casa.\r\n"
+      - speaker: 1
+        name: Cara Bombado
+        text: "T\xE1 at\xE9 me dando calor!"
+      - speaker: 1
+        name: Cara Bombado
+        text: Ui. Ai ai vem sempre aqui?
+      - speaker: 0
+        name: Atendente
+        text: ...
+      - speaker: 0
+        name: Atendente
+        text: Eu trabalho aqui.
+      - speaker: 1
+        name: Cara Bombado
+        text: "Opa, e aqui vende p\xE3o?"
+      - speaker: 0
+        name: Atendente
+        text: "\xC3h... N\xE3o. Porque?"
+      - speaker: 1
+        name: Cara Bombado
+        text: "Poxa. Pensei que aqui fosse uma padaria, porque voc\xEA \xE9 um sonho!"
+      - speaker: 0
+        name: Atendente
+        text: "Com todo respeito, n\xE3o posso flertar no meu hor\xE1rio de trabalho."
+      - speaker: 1
+        name: Cara Bombado
+        text: "Ah, t\xE1 se fazendo de dif\xEDcil \xE9?"
+      - speaker: 1
+        name: Cara Bombado
+        text: "S\xD3 PORQUE EU TO COM ESSA GALHADA NA CABE\xC7A?"
+      - speaker: 0
+        name: Atendente
+        text: Oi?
+      - speaker: 1
+        name: Cara Bombado
+        text: "O \xDANICO CORNO AQUI \xC9 VOC\xCA, OK?!"
+      - speaker: 1
+        name: Cara Bombado
+        text: QUER SABER DE UMA COISA?
+      - speaker: 1
+        name: Cara Bombado
+        text: "A GENTE N\xC3O TAVA MAIS NAMORANDO QUANDO ME TRA\xCDRAM!"
+      - speaker: 1
+        name: Cara Bombado
+        text: "EU J\xC1 TINHA TERMINADO ANTES..."
+      - speaker: 1
+        name: Cara Bombado
+        text: "... NA MINHA CABE\xC7A!!"
+      - speaker: 0
+        name: Atendente
+        text: ...
+      - speaker: 0
+        name: Atendente
+        text: Ok...
+      - speaker: 0
+        name: Atendente
+        text: ...
+      - speaker: 1
+        name: Cara Bombado
+        text: "E QUE FIQUE CLARO: UM HOMEM SEM CHIFRE \xC9 UM HOMEM INDEFESO!"
+      - speaker: 1
+        name: Cara Bombado
+        text: "Eu n\xE3o preciso disso aqui!"
+      - speaker: 1
+        name: Cara Bombado
+        text: Passar bem!!!
+      - speaker: 0
+        name: Atendente
+        text: Volte sempre, eu acho...
+      type: 1
+    respostaRefrescante:
+      sentences:
+      - speaker: 1
+        name: Cara Bombado
+        text: "A\xED sim, essa po\xE7\xE3o \xE9 braba mesmo!"
+      - speaker: 1
+        name: Cara Bombado
+        text: "Deu pra refrescar bem a cabe\xE7a!"
+      - speaker: 0
+        name: Atendente
+        text: "\xC9 mesmo?"
+      - speaker: 0
+        name: Atendente
+        text: "Que bom que gostou, \xE9 uma das que mais sai aqui na casa."
+      - speaker: 1
+        name: Cara Bombado
+        text: "\xC9 s\xE9rio, essa po\xE7\xE3o me deixou um pouco mais leve."
+      - speaker: 1
+        name: Cara Bombado
+        text: "Tipo, com uma vis\xE3o mais positiva das coisas, sabe?"
+      - speaker: 1
+        name: Cara Bombado
+        text: "Pra qu\xEA ficar chorando pelos cantos?"
+      - speaker: 1
+        name: Cara Bombado
+        text: Fui rejeitado? Fui.
+      - speaker: 1
+        name: Cara Bombado
+        text: Trocado por outros? Sim!
+      - speaker: 1
+        name: Cara Bombado
+        text: Mais de uma vez? Talvez.
+      - speaker: 1
+        name: Cara Bombado
+        text: "Mas foi a pessoa quem perdeu! Azar o dela, n\xE9?"
+      - speaker: 1
+        name: Cara Bombado
+        text: "Quando enxergar a burrada que fez, j\xE1 vai ser tarde demais. Vou
+          t\xE1 na pista, beb\xEA. Seguindo em frente."
+      - speaker: 0
+        name: Atendente
+        text: "Parece que voc\xEA superou bem r\xE1pido."
+      - speaker: 1
+        name: Cara Bombado
+        text: Pra que perder tempo?
+      - speaker: 1
+        name: Cara Bombado
+        text: "Tipo, olha pra mim, eu sou um partid\xE3o n\xE9?"
+      - speaker: 1
+        name: Cara Bombado
+        text: "N\xE3o \xE9 f\xE1cil encontrar algu\xE9m t\xE3o bom quanto eu."
+      - speaker: 1
+        name: Cara Bombado
+        text: "Uma hora vai perceber o erro que cometeu e se arrepender, n\xE3o concorda?"
+      - speaker: 0
+        name: Atendente
+        text: "Se voc\xEA diz\u2026 \xC9 importante ter autoestima, n\xE3o \xE9 mesmo?"
+      - speaker: 1
+        name: Cara Bombado
+        text: "Quem eu t\xF4 tentando enganar?"
+      - speaker: 1
+        name: Cara Bombado
+        text: "J\xE1 me esqueceram e eu aqui afogando as m\xE1goas."
+      - speaker: 1
+        name: Cara Bombado
+        text: Eu sou um idiota!
+      - speaker: 1
+        name: Cara Bombado
+        text: "N\xE3o importa o quanto eu me esfor\xE7asse, eu nunca fui bom o suficiente."
+      - speaker: 0
+        name: Atendente
+        text: "Isso n\xE3o \xE9 verdade."
+      - speaker: 1
+        name: Cara Bombado
+        text: "\xC9 sim. N\xE3o precisa fingir que se importa. T\xE1 claro que ningu\xE9m
+          liga pra mim, muito menos para os meus problemas."
+      - speaker: 1
+        name: Cara Bombado
+        text: "Sei l\xE1. Acho que vou dar uma corrida pra tentar ficar de boas."
+      - speaker: 0
+        name: Atendente
+        text: Tem certeza?
+      - speaker: 1
+        name: Cara Bombado
+        text: Malhar geralmente me faz ficar tranquilo. Preciso ficar bem! Focar
+          nos meus treinos. MALHAR PACAS!
+      - speaker: 1
+        name: Cara Bombado
+        text: "Toma aqui! Valeu pela bebida! Tava \xF3tima!"
+      - speaker: 0
+        name: Atendente
+        text: 'Por nada! Bom treino! '
+      - speaker: 1
+        name: Cara Bombado
+        text: Valeu!
+      type: 1
+    respostaAmargo:
+      sentences:
+      - speaker: 1
+        name: Cara Bombado
+        text: "Ai ai por que t\xE3o amargo?"
+      - speaker: 0
+        name: Atendente
+        text: Gostaria que trocasse sua bebida?
+      - speaker: 1
+        name: Cara Bombado
+        text: "Eu gosto. Mas no momento acho que minha vida j\xE1 est\xE1 amarga
+          o suficiente."
+      - speaker: 0
+        name: Atendente
+        text: "Voc\xEA est\xE1 bem?"
+      - speaker: 1
+        name: Cara Bombado
+        text: "Olha, sabe o fundo do po\xE7o? Eu cheguei l\xE1!"
+      - speaker: 0
+        name: Atendente
+        text: "Eita, t\xE3o ruim assim?"
+      - speaker: 1
+        name: Cara Bombado
+        text: "Eu fui tra\xEDdo, meu chapa! "
+      - speaker: 1
+        name: Cara Bombado
+        text: "Desculpa. Eu t\xF4 mal."
+      - speaker: 0
+        name: Atendente
+        text: "N\xE3o precisa se desculpar. Eu n\xE3o me incomodo, por favor fique
+          \xE0 vontade."
+      - speaker: 1
+        name: Cara Bombado
+        text: "Pensei em vir para o bar para, n\xE3o sei, tentar me motivar de alguma
+          forma. N\xE3o tenho conseguido nem treinar\u2026"
+      - speaker: 1
+        name: Cara Bombado
+        text: "O que me deixa PIOR porque eu penso\u2026 eu penso\u2026 Sei l\xE1."
+      - speaker: 1
+        name: Cara Bombado
+        text: "Se eu me largar, a\xED mesmo que ningu\xE9m vai me querer mesmo. Sabe?"
+      - speaker: 0
+        name: Atendente
+        text: "N\xE3o \xE9 bem assim."
+      - speaker: 1
+        name: Cara Bombado
+        text: "Voc\xEA n\xE3o sabe disso. N\xE3o \xE9 a primeira vez que isso acontece."
+      - speaker: 1
+        name: Cara Bombado
+        text: Deve ter algo de errado comigo.
+      - speaker: 1
+        name: Cara Bombado
+        text: "Queria ser capaz de pegar aquele cora\xE7\xE3o de gelo e beber com
+          cacha\xE7a"
+      - speaker: 1
+        name: Cara Bombado
+        text: "Mas eu s\xF3 n\xE3o consigo."
+      - speaker: 1
+        name: Cara Bombado
+        text: "Valeu pela bebida camarada, mas eu real n\xE3o t\xF4 legal."
+      - speaker: 1
+        name: Cara Bombado
+        text: Vou indo nessa.
+      - speaker: 0
+        name: Atendente
+        text: Disponha, espero que fique melhor.
+      - speaker: 1
+        name: Cara Bombado
+        text: "Eu tamb\xE9m\u2026"
+      type: 1
+    respostaDoce:
+      sentences:
+      - speaker: 1
+        name: Cara Bombado
+        text: DOCE?????
+      - speaker: 1
+        name: Cara Bombado
+        text: "TA ME ESTRANHANDO, MERM\xC3O?"
+      - speaker: 1
+        name: Cara Bombado
+        text: "N\xC3O POSSO BEBER ISSO, TENHO UM SHAPE A MANTER!!"
+      - speaker: 0
+        name: Atendente
+        text: Shape?
+      - speaker: 1
+        name: Cara Bombado
+        text: "\xC9! Esse corpinho gostoso n\xE3o veio da noite para o dia n\xE3o,
+          meu irm\xE3o."
+      - speaker: 1
+        name: Cara Bombado
+        text: Sem dor, sem ganho, parceiro!
+      - speaker: 0
+        name: Atendente
+        text: 'Desculpe pela bebida adocicada.
+
+'
+      - speaker: 0
+        name: Atendente
+        text: "Achei que voc\xEA precisava de um pouco de energia, por isso a preparei
+          assim."
+      - speaker: 0
+        name: Atendente
+        text: "Posso refazer, se voc\xEA quiser."
+      - speaker: 1
+        name: Cara Bombado
+        text: "HUM... Agora j\xE1 foi, n\xE9..."
+      - speaker: 0
+        name: Atendente
+        text: "Bom, tenho certeza que n\xE3o vai se repetir."
+      - speaker: 1
+        name: Cara Bombado
+        text: "J\xE1 me disseram isso antes..."
+      - speaker: 1
+        name: Cara Bombado
+        text: ...
+      - speaker: 1
+        name: Cara Bombado
+        text: Mas quer saber de uma coisa...
+      - speaker: 1
+        name: Cara Bombado
+        text: "Nem tava t\xE3o ruim assim..."
+      - speaker: 1
+        name: Cara Bombado
+        text: Hummm...
+      - speaker: 1
+        name: Cara Bombado
+        text: "T\xE3o docinho!"
+      - speaker: 1
+        name: Cara Bombado
+        text: "Talvez eu d\xEA mais um golinho, hein."
+      - speaker: 1
+        name: Cara Bombado
+        text: "N\xE3o! N\xC3O POSSO! Autocontrole!"
+      - speaker: 1
+        name: Cara Bombado
+        text: "POR FAVOR TIRA ESSA TENTA\xC7\xC3O DA MINHA FRENTE ANTES QUE EU PE\xC7A
+          OUTRO!"
+      - speaker: 0
+        name: Atendente
+        text: Hahaha.
+      - speaker: 0
+        name: Atendente
+        text: Relaxa, pode deixar!
+      - speaker: 1
+        name: Cara Bombado
+        text: "Err, obrigado\u2026"
+      - speaker: 1
+        name: Cara Bombado
+        text: "Foi mal por perder a linha. \xC9 que eu me preocupo muito com a minha
+          apar\xEAncia, sabe?"
+      - speaker: 1
+        name: Cara Bombado
+        text: "Enfim, desculpa ai irm\xE3o. Suas po\xE7\xF5es s\xE3o demais."
+      - speaker: 0
+        name: Atendente
+        text: Sem problemas! Fico feliz que tenha gostado apesar de tudo.
+      - speaker: 1
+        name: Cara Bombado
+        text: "\xC9, mas fiz papel de ot\xE1rio\u2026 Eu sempre estrago tudo."
+      - speaker: 1
+        name: Cara Bombado
+        text: Melhor eu ir nessa, pode ficar com o troco.
+      - speaker: 0
+        name: Atendente
+        text: Obrigado, e tenha uma boa noite!
+      - speaker: 1
+        name: Cara Bombado
+        text: "Voc\xEA tamb\xE9m\u2026"
+      type: 1
+    respostaSalgado:
+      sentences:
+      - speaker: 1
+        name: Cara Bombado
+        text: Argh, que bebida forte, camarada!
+      - speaker: 1
+        name: Cara Bombado
+        text: "Quase t\xE3o forte quanto eu! HAHAH"
+      - speaker: 0
+        name: Atendente
+        text: ...
+      - speaker: 1
+        name: Cara Bombado
+        text: "N\xE3o acha?! Po, eu sou um grande gostoso!!"
+      - speaker: 1
+        name: Cara Bombado
+        text: Ai ai cara, nada nesse mundo faz sentido.
+      - speaker: 1
+        name: Cara Bombado
+        text: "Um partid\xE3o desse levando CHIFRE???"
+      - speaker: 1
+        name: Cara Bombado
+        text: PORQUE FIZERAM ISSO COMIGO??
+      - speaker: 1
+        name: Cara Bombado
+        text: "N\xE3o \xE9 poss\xEDvel, mano. Voc\xEA ai! Me diz na sinceridade:
+          Tu n\xE3o me acha gostoso?"
+      - speaker: 0
+        name: Atendente
+        text: "Realmente, o senhor est\xE1\u2026 em forma de fato."
+      - speaker: 0
+        name: Atendente
+        text: "Mas existem coisas mais importantes em um relacionamento do que apar\xEAncia."
+      - speaker: 1
+        name: Cara Bombado
+        text: "Na moral isso ai \xE9 mo papinho de gente feia!"
+      - speaker: 0
+        name: Atendente
+        text: ...
+      - speaker: 0
+        name: Atendente
+        text: ... Valeu?
+      - speaker: 1
+        name: Cara Bombado
+        text: "E o que voc\xEA t\xE1 sugerindo com isso???"
+      - speaker: 1
+        name: Cara Bombado
+        text: "Que eu n\xE3o sou boa pinta?"
+      - speaker: 0
+        name: Atendente
+        text: Eu nunca disse isso, senhor.
+      - speaker: 1
+        name: Cara Bombado
+        text: Quer saber de uma coisa?
+      - speaker: 1
+        name: Cara Bombado
+        text: "SAIBA QUE EU SOU UMA PESSOA MUITO LEGAL SIM, T\xC1?!"
+      - speaker: 1
+        name: Cara Bombado
+        text: "TALVEZ AT\xC9 O \xDALTIMO ROM NTICO DESSE MUNDO!"
+      - speaker: 1
+        name: Cara Bombado
+        text: "N\xE3o tenho culpa se sempre trato bem, e decidem me largar!"
+      - speaker: 1
+        name: Cara Bombado
+        text: "Parece ironia querer viver um amor no s\xE9culo da ousadia."
+      - speaker: 1
+        name: Cara Bombado
+        text: "Mas n\xE3o importa, o que vale \xE9 continuar procurando at\xE9 encontrar
+          uma pessoa que me ame de verdade."
+      - speaker: 0
+        name: Atendente
+        text: "Mas voc\xEA tem que saber se amar tamb\xE9m!"
+      - speaker: 0
+        name: Atendente
+        text: "\xC9 algo que voc\xEA pode fazer por conta pr\xF3pria, n\xE3o?"
+      - speaker: 1
+        name: Cara Bombado
+        text: ...
+      - speaker: 1
+        name: Cara Bombado
+        text: "Meh. N\xE3o sei voc\xEA, mas eu prefiro ser amado!"
+      - speaker: 1
+        name: Cara Bombado
+        text: "Imposs\xEDvel ser feliz sozinho. Mas, pelo visto, voc\xEA n\xE3o entende
+          isso\u2026 "
+      - speaker: 1
+        name: Cara Bombado
+        text: "Me v\xEA a conta que eu vou procurar outro lugar pra beber!"
+      - speaker: 1
+        name: Cara Bombado
+        text: "N\xE3o vou discutir esses assuntos com um gente feia mal amada!!!"
+      - speaker: 0
+        name: Atendente
+        text: "Nossa! Tudo bem, aqui est\xE1 a sua comanda."
+      - speaker: 1
+        name: Cara Bombado
+        text: "Toma, e v\xEA se me d\xE1 meu troco direito!"
+      - speaker: 0
+        name: Atendente
+        text: "\u2026"
+      - speaker: 0
+        name: Atendente
+        text: Aqui.
+      - speaker: 0
+        name: Atendente
+        text: "E tenha uma boa noite, espero que voc\xEA encontre o que procura\u2026"
+      - speaker: 1
+        name: Cara Bombado
+        text: AH SE EU VOU!
+      type: 1
+    respostas: []
