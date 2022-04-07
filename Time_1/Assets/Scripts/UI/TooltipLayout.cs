@@ -48,8 +48,8 @@ public class TooltipLayout : MonoBehaviour
         float pivotX = position.x / Screen.width;
         float pivotY = position.y / Screen.height;
 
-        rectTransform.pivot = new Vector2(pivotX, pivotY);
-        transform.position = new Vector2(position.x, position.y + 40f);
+        //rectTransform.pivot = new Vector2(pivotX, pivotY);
+        transform.position = new Vector2(position.x - 10f, position.y + 10f);
         //Debug.Log(position.x);
     }
 }

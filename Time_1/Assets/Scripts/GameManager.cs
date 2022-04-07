@@ -6,29 +6,45 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public bool screen;
+    [HideInInspector] public bool screen;
     public List<Client> clientes;
     public Dialogue startingDialogue;
+    public Dialogue endingDialogue;
     [HideInInspector] public int currentClient;
     private GameObject temp = null;
-    public bool orderPlaced;
+    [HideInInspector] public bool orderPlaced;
+    [HideInInspector] public bool delivered;
     [HideInInspector] public bool mouseOverUI;
     public GameObject board;
     public GameObject warning;
     [HideInInspector] public List<int> order;
     public GameObject button;
+    public GameObject fadeIn;
+    public GameObject fadeOut;
 
     private void Start()
     {
-        for (int i = 0; i < clientes.Count; i++)
+        if (GameStateManager.instance.order.Count == 0)
         {
-            order.Add(i);
+            order = new List<int>();
+            for (int i = 0; i < 3; i++)
+            {
+                order.Add(i);
+            }
+            order = Shuffle(order);
+            GameStateManager.instance.order = order;
+
         }
-        order = Shuffle(order);
+        else
+        {
+            order = GameStateManager.instance.order;
+        }
+
         screen = true;
+        delivered = false;
         orderPlaced = false;
         button.SetActive(false);
-        currentClient = -1;
+        currentClient = (GameStateManager.instance.currentClient == -1)? -1 : GameStateManager.instance.currentClient - 1;
         StartCoroutine(StartDelayed(2));
     }
     public void StartGame()
@@ -48,7 +64,9 @@ public class GameManager : MonoBehaviour
     }
     public void AdvanceClient()
     {
-        currentClient++;
+        GameStateManager.instance.currentClient = ++currentClient;
+        GameStateManager.instance.SaveGame();
+        
         if (temp != null)
         {
             Destroy(temp);
@@ -57,13 +75,14 @@ public class GameManager : MonoBehaviour
 
         if (currentClient >= clientes.Count)
         {
-            //Debug.Log("Fim do jogo");
-            //return;
-            SceneManager.LoadScene("Final");
+            FindObjectOfType<DialogueManager>().StopAllCoroutines();
+            StartCoroutine(EndGame());
+            return;
         }
 
         temp = Instantiate(clientes[order[currentClient]].prefab);
         FindObjectOfType<BoardSenha>().cliente = clientes[order[currentClient]];      
+        delivered = false;
     }
 
     public void PlayClient()
@@ -128,5 +147,21 @@ public class GameManager : MonoBehaviour
         }
 
         return _list;
+    }
+
+    public IEnumerator EndGame()
+    {
+        yield return new WaitForSeconds(0.5f);
+        FindObjectOfType<DialogueManager>().StartDialogue(endingDialogue);
+        yield return new WaitForSeconds(2);
+        var fade = Instantiate(fadeOut);
+        yield return new WaitForSeconds(fade.GetComponent<FadeObject>().duration);
+        GameStateManager.instance.completed = true;
+        SceneManager.LoadScene(0);
+    }
+
+    public void ReturnToMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }

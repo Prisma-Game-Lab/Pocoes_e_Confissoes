@@ -135,8 +135,10 @@ public class BoardSenha : MonoBehaviour
         }
 
         RemoveIngredient();
+        if (!FindObjectOfType<GameManager>().screen)
         FindObjectOfType<GameManager>().SwitchScreen();
         FindObjectOfType<GameManager>().orderPlaced = false;
+        FindObjectOfType<GameManager>().delivered = true;
         FindObjectOfType<GameManager>().button.SetActive(false);
     }
     
