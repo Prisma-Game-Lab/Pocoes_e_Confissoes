@@ -12,10 +12,12 @@ public class BoardSenha : MonoBehaviour
     public Client cliente;
     public Text texto;
     public GameObject botao;
+    public GameObject dot;
+    public List<GameObject> dots;
 
-    // Start is called before the first frame update
     void Start()
     {
+        dots = new List<GameObject>();
         totalSolidos = 0;
         totalLiquidos = 0;
         totalIngredients = 0;
@@ -29,17 +31,22 @@ public class BoardSenha : MonoBehaviour
         }
     }
 
-    public void AddIngrediente(int[] tipoIngrediente)
+    public void AddIngrediente(int[] tipoIngrediente, GameObject ingredient)
     {
         if (totalIngredients < 3)
         {
-            if ((tipoIngrediente[0] == 0) && (totalLiquidos < 1)) {
+            if ((tipoIngrediente[0] == 0) && (totalLiquidos < 1)) 
+            {
+                var new_dot = Instantiate(dot, new Vector3(ingredient.transform.position.x, -2.24f, 1),  ingredient.transform.rotation, this.transform);
+                dots.Add(new_dot);
                 bebida[2] = tipoIngrediente[1];
                 totalLiquidos = 1;
                 totalIngredients++;
                 Debug.Log(totalLiquidos);
             } else if ((tipoIngrediente[0] == 1) && (totalSolidos < 2))
             {
+                var new_dot = Instantiate(dot, new Vector3(ingredient.transform.position.x, 0.665f, 1),  ingredient.transform.rotation, this.transform);
+                dots.Add(new_dot);
                 bebida[totalSolidos] = tipoIngrediente[1];
                 totalSolidos++;
                 totalIngredients++;
@@ -77,6 +84,11 @@ public class BoardSenha : MonoBehaviour
     {
         if (totalIngredients > 0)
         {
+            foreach (GameObject dot in dots)
+            {
+                Destroy(dot);
+            }
+            dots.Clear();
 
             totalSolidos = 0;
             totalLiquidos = 0;

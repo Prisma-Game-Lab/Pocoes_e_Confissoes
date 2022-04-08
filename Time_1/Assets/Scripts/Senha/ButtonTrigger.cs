@@ -61,7 +61,7 @@ public class ButtonTrigger : MonoBehaviour
         OnClick.Invoke();
         if (tipoDeAcao == 1)
         {
-            boardScript.AddIngrediente(tipoIngrediente);
+            boardScript.AddIngrediente(tipoIngrediente, this.gameObject);
         } else if (tipoDeAcao == 2) {
             boardScript.RemoveIngredient();
         } else if (tipoDeAcao == 3) {

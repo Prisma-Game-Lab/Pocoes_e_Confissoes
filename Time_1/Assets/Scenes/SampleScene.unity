@@ -8244,6 +8244,8 @@ MonoBehaviour:
   cliente: {fileID: 0}
   texto: {fileID: 701598878}
   botao: {fileID: 311229512}
+  dot: {fileID: 8852541878330623592, guid: c211deee3df236442be3ca10085c73f6, type: 3}
+  dots: []
 --- !u!212 &2031287732
 SpriteRenderer:
   m_ObjectHideFlags: 0
