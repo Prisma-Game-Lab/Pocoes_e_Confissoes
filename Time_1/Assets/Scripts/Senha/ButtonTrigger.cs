@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public enum Consistencia { Solido, Liquido }
 
@@ -52,10 +53,12 @@ public class ButtonTrigger : MonoBehaviour
         }
     }
 
+    public UnityEvent OnClick;
     private void OnMouseDown()
     {        
         if (FindObjectOfType<GameManager>().mouseOverUI)
             return;
+        OnClick.Invoke();
         if (tipoDeAcao == 1)
         {
             boardScript.AddIngrediente(tipoIngrediente);
