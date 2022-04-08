@@ -193,43 +193,92 @@ MonoBehaviour:
         text: "Valeu\u2026 amargo"
       - speaker: 0
         name: Atendente
-        text: Ta tudo bem?
+        text: "Tudo bem a\xED, camarada? "
       - speaker: 1
         name: Jovem
         text: "Eu consegui o trabalho dos meus sonhos sabia\u2026\r\n"
       - speaker: 0
         name: Atendente
-        text: "Meus parab\xE9ns! Seus pais devem estar orgulhosos!"
-      - speaker: 1
-        name: Jovem
-        text: "Essa \xE9 a quest\xE3o. Sou eu e minha m\xE3e na verdade, e a gente
-          n\xE3o se fala muito\u2026"
+        text: "Meus parab\xE9ns! "
       - speaker: 0
         name: Atendente
-        text: "Por que voc\xEA n\xE3o conta essa grande not\xEDcia pra ela? Tenho
-          certeza que ela vai adorar!\r\n"
+        text: Seus pais devem estar orgulhosos!
+      - speaker: 1
+        name: Jovem
+        text: "Essa \xE9 a quest\xE3o\u2026"
+      - speaker: 1
+        name: Jovem
+        text: "Sou s\xF3 eu e minha m\xE3e na verdade\u2026"
+      - speaker: 1
+        name: Jovem
+        text: "E a gente n\xE3o se fala muito."
+      - speaker: 0
+        name: Atendente
+        text: "\xC9 a rela\xE7\xE3o com os pais \xE9 meio complicada mesmo.\r\n"
+      - speaker: 0
+        name: Atendente
+        text: "Por que voc\xEA n\xE3o conta essa grande not\xEDcia pra ela? "
+      - speaker: 0
+        name: Atendente
+        text: "Por que voc\xEA n\xE3o conta essa grande not\xEDcia pra ela? "
+      - speaker: 0
+        name: Atendente
+        text: Tenho certeza que ela vai adorar!
       - speaker: 1
         name: Jovem
         text: "\xC9\u2026 eu n\xE3o sei\u2026 "
       - speaker: 0
         name: Atendente
-        text: "Pode ser um bom come\xE7o para uma reaproxima\xE7\xE3o!\r\n"
+        text: "Acho que pode ser um bom come\xE7o para uma reaproxima\xE7\xE3o, n\xE3o?\r\n"
       - speaker: 1
         name: Jovem
-        text: Ah ela deve estar ocupada!
+        text: "Ah ela deve estar ocupada! \r\n"
       - speaker: 0
         name: Atendente
-        text: "Cara, n\xE3o t\xEAm nada mais gratificante para uma m\xE3e do que
-          a felicidade do filho. Fica a dica, liga pra ela.\r\n"
+        text: "Cara, n\xE3o tem nada mais gratificante para uma m\xE3e do que a felicidade
+          do filho.\r\n"
       - speaker: 1
         name: Jovem
-        text: Quer saber? Eu vou fazer isso!
+        text: "\xC9 eu sei. Mas a gente n\xE3o t\xE1 muito bem, sabe.\r\n"
+      - speaker: 1
+        name: Jovem
+        text: Eu tive uma briga feia com ela recentemente.
       - speaker: 0
         name: Atendente
-        text: Boa!
+        text: "Brigar \xE9 normal, mas voc\xEA pediu desculpas pra ela?\r\n"
       - speaker: 1
         name: Jovem
-        text: "Valeu pelo conselho e pela po\xE7\xE3o!"
+        text: "N\xE3o! Ela fica me enchendo o saco!\r\n"
+      - speaker: 1
+        name: Jovem
+        text: Perguntando coisas demais sobre a minha vida!
+      - speaker: 1
+        name: Jovem
+        text: "Eu j\xE1 sou grandinho!"
+      - speaker: 0
+        name: Atendente
+        text: "Meu amigo, isso mostra que ela se importa com voc\xEA!"
+      - speaker: 0
+        name: Atendente
+        text: "Ao mesmo tempo que ela fica muito feliz em ver seu filho crescer e
+          ganhar autonomia, todo esse processo tamb\xE9m \xE9 dif\xEDcil.\r\n"
+      - speaker: 0
+        name: Atendente
+        text: "Afinal ela \xE9 m\xE3e! E pra ela voc\xEA sempre vai ser o pequeno
+          dela hahaha.\r\n"
+      - speaker: 0
+        name: Atendente
+        text: "Meu conselho \xE9 voc\xEA ligar pra ela! Contar a novidade do seu
+          emprego e perguntar como ela t\xE1.\r\n"
+      - speaker: 1
+        name: Jovem
+        text: 'Quer saber? Eu vou fazer isso! '
+      - speaker: 0
+        name: Atendente
+        text: "Boa! E n\xE3o esquece de pedir desculpas, viu?\r\n"
+      - speaker: 1
+        name: Jovem
+        text: Okay! Valeu pelo conselho e pela bebida!
       - speaker: 0
         name: Atendente
         text: Tamo junto amigo!
@@ -244,37 +293,89 @@ MonoBehaviour:
         text: "Dia dif\xEDcil?"
       - speaker: 1
         name: Jovem
-        text: "Nem me fala. Eu consegui esse emprego e n\xE3o posso perder de forma
-          alguma! Meu chefe est\xE1 cobrando resultados e mesmo fazendo tudo que
-          ele me pede sinto que ele vai me botar na rua!\r\n"
-      - speaker: 0
-        name: Atendente
-        text: "N\xE3o se cobra tanto. Voc\xEA parece bem compromissado com seu trabalho\r!\n"
+        text: 'Nem me fala.
+
+'
       - speaker: 1
         name: Jovem
-        text: "Voc\xEA n\xE3o entende\u2026 Esse trabalho \xE9 minha vida, \xE9 tudo
-          para mim. Tenho contas a pagar!\r\n"
+        text: "Eu consegui esse novo emprego e n\xE3o posso perder de forma alguma!"
+      - speaker: 1
+        name: Jovem
+        text: "Meu chefe est\xE1 cobrando resultados e mesmo fazendo tudo que ele
+          me pede sinto que ele vai me botar na rua!\r"
       - speaker: 0
         name: Atendente
-        text: "Entendo mais do que voc\xEA imagina! Voc\xEA tem que se perguntar?
-          Estou fazendo um bom trabalho? Se sim, maravilha! Se n\xE3o, onde posso
-          melhorar. \r\n"
+        text: "Acho que voc\xEA n\xE3o precisa se cobrar tanto. "
+      - speaker: 0
+        name: Atendente
+        text: "Voc\xEA parece bem comprometido com seu trabalho."
+      - speaker: 1
+        name: Jovem
+        text: "Voc\xEA n\xE3o entende\u2026"
+      - speaker: 1
+        name: Jovem
+        text: "Esse trabalho \xE9 minha vida, \xE9 tudo para mim. Tenho contas para
+          ajudar a pagar em casa!"
+      - speaker: 0
+        name: Atendente
+        text: "Afinal eu tamb\xE9m tenho contas a pagar e um bar para sustentar!"
+      - speaker: 1
+        name: Jovem
+        text: Justo.
+      - speaker: 0
+        name: Atendente
+        text: "Mas voc\xEA tem que se perguntar."
+      - speaker: 0
+        name: Atendente
+        text: 'Estou fazendo um bom trabalho? '
+      - speaker: 0
+        name: Atendente
+        text: 'Se sim, maravilha! '
+      - speaker: 0
+        name: Atendente
+        text: "Se n\xE3o, como posso melhorar?"
       - speaker: 1
         name: Jovem
         text: Eu realmente gosto desse trabalho!
       - speaker: 0
         name: Atendente
         text: "Se fazemos aquilo que amamos o resultado \xE9 consequ\xEAncia de nossa
-          paix\xE3o!"
+          paix\xE3o!\r\n"
       - speaker: 1
         name: Jovem
-        text: "Frase de tio essa hahaha. Mas voc\xEA n\xE3o deixa de ter raz\xE3o!\r\n"
-      - speaker: 1
-        name: Jovem
-        text: "Tenho que ir que ta na minha hora! Valeu pela po\xE7\xE3o e pela conversa!\n"
+        text: "Nossa, que frase de tio essa hahaha\u2026"
       - speaker: 0
         name: Atendente
-        text: "Quando quiser voc\xEA sabe onde o bar fica!\r\n"
+        text: "Po ta me chamando de tioz\xE3o? Hahaha"
+      - speaker: 1
+        name: Jovem
+        text: HAHAHAHAHA!
+      - speaker: 1
+        name: Jovem
+        text: "Foi mal, foi mal\u2026 Mas voc\xEA n\xE3o deixa de ter raz\xE3o\u2026"
+      - speaker: 1
+        name: Jovem
+        text: "Eu sou bom no que fa\xE7o e gosto do que fa\xE7o! \r\n"
+      - speaker: 1
+        name: Jovem
+        text: "N\xE3o tenho por que me preocupar!"
+      - speaker: 0
+        name: Atendente
+        text: "\xC9 isso a\xED po!"
+      - speaker: 1
+        name: Jovem
+        text: "Bom, tenho que ir, que t\xE1 na minha hora!"
+      - speaker: 1
+        name: Jovem
+        text: Valeu pela bebida e pela conversa!
+      - speaker: 0
+        name: Atendente
+        text: "Quando quiser, voc\xEA sabe onde o bar fica!\r\n"
+      - speaker: 1
+        name: Jovem
+        text: 'Show!
+
+'
       type: 1
     respostaSalgado:
       sentences:
@@ -294,10 +395,13 @@ MonoBehaviour:
         text: "\u2026\r\n"
       - speaker: 1
         name: Jovem
-        text: "Voc\xEA deve me achar maluco, n\xE9? Falando sozinho assim\u2026\r\n"
+        text: "Voc\xEA deve me achar maluco, n\xE9?\n"
+      - speaker: 1
+        name: Jovem
+        text: " Falando sozinho assim\u2026\r"
       - speaker: 0
         name: Atendente
-        text: "Amigo, j\xE1 passou cada indiv\xEDduo aqui que voc\xEA n\xE3o acreditaria! "
+        text: "Amigo, j\xE1 passou cada indiv\xEDduo aqui que voc\xEA nem acreditaria! "
       - speaker: 1
         name: Jovem
         text: "\xC0s vezes eu acho que vou ter um colapso nervoso, sabia?\r\n"
@@ -306,29 +410,66 @@ MonoBehaviour:
         text: "J\xE1 pensou em procurar ajuda?\r\n"
       - speaker: 1
         name: Jovem
-        text: "Voc\xEA t\xE1 falando de psic\xF3logo?? De jeito nenhum! Se eu n\xE3o
-          falar dos meus problemas n\xE3o terei mais problemas!"
-      - speaker: 0
-        name: Atendente
-        text: "Tenho quase certeza que n\xE3o \xE9 assim que nossa mente funciona\u2026\r\n"
+        text: "T\xE1 falando de psic\xF3logo?? \r\n"
       - speaker: 1
         name: Jovem
-        text: "Me desculpe mas n\xE3o pretendo fazer psic\xF3logo.\r\n"
+        text: "De jeito nenhum! \r\n"
+      - speaker: 1
+        name: Jovem
+        text: "Se eu n\xE3o falar dos meus problemas, n\xE3o terei mais problemas!\r\n"
       - speaker: 0
         name: Atendente
-        text: "Voc\xEA tem todo o direito. Mas eu acredito que todos dever\xEDamos
-          fazer. Temos que cuidar da nossa sa\xFAde f\xEDsica e mental se queremos
+        text: "Hmm, tenho quase certeza que n\xE3o \xE9 assim que funciona\u2026\r\n"
+      - speaker: 1
+        name: Jovem
+        text: "Me desculpe, mas n\xE3o pretendo fazer psic\xF3logo."
+      - speaker: 0
+        name: Atendente
+        text: "Bom, voc\xEA tem esse direito.\r\n"
+      - speaker: 0
+        name: Atendente
+        text: "Mas eu acredito que todos deveriam fazer. \r\n"
+      - speaker: 0
+        name: Atendente
+        text: "Temos que cuidar da nossa sa\xFAde f\xEDsica e mental se queremos
           viver e trabalhar direito.\r\n"
       - speaker: 1
         name: Jovem
-        text: "Hmmm\u2026 Anotado! Quem sabe?"
-      - speaker: 1
-        name: Jovem
-        text: Bom eu vou indo. Obrigado pela bebida!
+        text: "E por acaso voc\xEA faz psic\xF3logo?\r\n"
       - speaker: 0
         name: Atendente
-        text: 'Valeu!
+        text: "Fa\xE7o! E acredito que estaria nervoso que nem voc\xEA se n\xE3o
+          fosse pelo trabalho dele!\r\n"
+      - speaker: 1
+        name: Jovem
+        text: "Hmmm\u2026"
+      - speaker: 1
+        name: Jovem
+        text: 'Anotado! Quem sabe?
 
 '
+      - speaker: 1
+        name: Jovem
+        text: 'Vou fazer um teste.
+
+'
+      - speaker: 0
+        name: Atendente
+        text: "Isso! Tenho certeza que voc\xEA vai curtir!\r\n"
+      - speaker: 1
+        name: Jovem
+        text: "\xC9 vamos ver!\r\n"
+      - speaker: 1
+        name: Jovem
+        text: Bom, eu vou indo nessa.
+      - speaker: 1
+        name: Jovem
+        text: "Obrigado pela bebida! Vou tentar pensar no que voc\xEA disse."
+      - speaker: 0
+        name: Atendente
+        text: Faz isso!
+      - speaker: 0
+        name: Atendente
+        text: "At\xE9 mais! Tenha um bom dia!"
       type: 1
     respostas: []
