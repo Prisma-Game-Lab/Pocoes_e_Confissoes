@@ -12,9 +12,13 @@ public class Button2d : MonoBehaviour
         OnClick.Invoke();
         if (FindObjectOfType<DialogueManager>()._talking)
             FindObjectOfType<DialogueManager>().DisplayNextSentence();
-        else 
-        if (!FindObjectOfType<GameManager>().delivered)
+        else if (!FindObjectOfType<GameManager>().delivered)
             FindObjectOfType<GameManager>().PlayClient();
+    }
+    private void Update()
+    {   
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return)) && FindObjectOfType<DialogueManager>()._talking)
+            FindObjectOfType<DialogueManager>().DisplayNextSentence();
     }
 
 }

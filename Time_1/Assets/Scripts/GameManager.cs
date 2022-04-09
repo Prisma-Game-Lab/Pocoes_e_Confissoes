@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        startingDialogue.type = 2;
+        endingDialogue.type = 2;
         if (GameStateManager.instance.order.Count == 0)
         {
             order = new List<int>();
@@ -87,9 +89,9 @@ public class GameManager : MonoBehaviour
 
     public void PlayClient()
     {
+        button.SetActive(false);
         clientes[order[currentClient]].TriggerPedido(0);
         orderPlaced = true;
-        button.SetActive(true);
     }
 
     void PlayStartingText()

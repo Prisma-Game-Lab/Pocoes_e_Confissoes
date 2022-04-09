@@ -98,6 +98,10 @@ public class DialogueManager : MonoBehaviour {
 			FindObjectOfType<GameManager>().EndClient();
 			StartCoroutine(FindObjectOfType<GameManager>().StartDelayed(2));
 		}
+		else if (currentType == 0)
+		{
+			FindObjectOfType<GameManager>().button.SetActive(true);
+		}
 	}
 
 }

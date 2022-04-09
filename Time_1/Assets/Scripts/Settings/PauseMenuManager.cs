@@ -63,7 +63,7 @@ public class PauseMenuManager : MonoBehaviour
 
     public void SetFxVolume(float volume)
     {
-        audioMixer.SetFloat("SoundFXVolume", Mathf.Log10((volume != 0)? volume/100f : -80f) * multiplier + 10);
+        audioMixer.SetFloat("SoundFXVolume", Mathf.Log10((volume != 0)? volume/100f : -90f) * multiplier + 10);
         PlayerPrefs.SetFloat("SoundFXVolume", volume);
         FXSlider.value = volume;
         FXTextValue.text = volume.ToString();
@@ -71,7 +71,7 @@ public class PauseMenuManager : MonoBehaviour
 
     public void SetMusicVolume(float volume)
     {
-        audioMixer.SetFloat("MusicVolume", Mathf.Log10((volume != 0)? volume/100f : -80f) * multiplier + 10);
+        audioMixer.SetFloat("MusicVolume", Mathf.Log10((volume != 0)? volume/100f : -90f) * multiplier + 10);
         PlayerPrefs.SetFloat("MusicVolume", volume);
         MusicSlider.value = volume;
         MusicTextValue.text = volume.ToString();
